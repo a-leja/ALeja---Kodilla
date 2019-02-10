@@ -5,27 +5,12 @@ import com.kodilla.testing.user.SimpleUser;
 
 public class TestingMain {
     public static void main(String[] args){
-        SimpleUser simpleUser = new SimpleUser("theForumUser");
 
-        String result = simpleUser.getUsername();
+        Calculator calculator = new Calculator();
 
-        if (result.equals("theForumUser")){
-            System.out.println("test OK");
-        } else {
-            System.out.println("Error!");
-        }
+        double resultOfAdding = calculator.addAtoB(1.5, 4.5);
 
-
-        System.out.println("Test - first unit test");
-
-
-
-
-        Calculator calculator = new Calculator(1.5, 4.5);
-
-        double resultOfAdding = calculator.addAtoB();
-
-        if(resultOfAdding = 6.0){
+        if(resultOfAdding == 6.0){
             System.out.println("Test passed");
         } else {
             System.out.println("Test failed");
@@ -33,9 +18,9 @@ public class TestingMain {
 
 
 
-        double resultOfSubtracting = calculator.subtractAFromB();
+        double resultOfSubtracting = calculator.subtractAFromB(1.5, 4.5);
 
-        if(resultOfSubtracting = 2.0){
+        if(resultOfSubtracting == -3.0){
             System.out.println("Test passed");
         } else {
             System.out.println("Test failed");
