@@ -16,5 +16,3 @@ public class OddNumbersExterminator {
         return (ArrayList<Integer>) evenNumbers;
     }
 }
-
-//instead of evenNumbers there is a "resultList"
