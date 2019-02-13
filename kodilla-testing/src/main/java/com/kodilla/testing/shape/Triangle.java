@@ -1,4 +1,13 @@
 package com.kodilla.testing.shape;
 
-public class Triangle {
+public class Triangle implements Shape {
+
+    public String getShapeName() {
+
+        return;
+    };
+
+    public Integer getField() { return;
+
+    };
 }
