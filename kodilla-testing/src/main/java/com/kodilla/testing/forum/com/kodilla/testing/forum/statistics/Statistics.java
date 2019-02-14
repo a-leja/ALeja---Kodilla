@@ -8,7 +8,7 @@ public interface Statistics {
     int commentsCount();       // total quantity of forum comments
 }
 
-public class Statstics {
+public class ForumStatistics implements Statistics{
 
     public int getUsersQuantity() {
 
@@ -41,7 +41,7 @@ public class Statstics {
     }
 
 
-    public int getAverageCommentsPerPost/() {
+    public int getAverageCommentsPerPost() {
 
         return;
     }

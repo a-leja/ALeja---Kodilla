@@ -3,11 +3,10 @@ package com.kodilla.testing.shape;
 public class Triangle implements Shape {
 
     public String getShapeName() {
-
-        return;
+        return "Triangle";
     };
 
-    public Integer getField() { return;
-
+    public Integer getField() {
+        return 144;
     };
 }
