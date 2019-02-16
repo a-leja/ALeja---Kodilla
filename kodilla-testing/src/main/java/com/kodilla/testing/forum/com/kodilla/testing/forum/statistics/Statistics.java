@@ -67,22 +67,21 @@ public class ForumStatistics implements Statistics{
     }
 
 
-    public int getAverageNumberOfPosts() {
+    public double getAverageNumberOfPosts() {
 
         return averageNumberOfPost;
     }
 
 
-    public int getAverageNumberOfComments() {
+    public double getAverageNumberOfComments() {
 
-        return (int) averageNumberOfComments;
+        return averageNumberOfComments;
     }
 
 
-    public int getAverageNumberOfCommentsPerPost() {
+    public double getAverageNumberOfCommentsPerPost() {
         return averageNumberOfCommentsPerPost;
     }
-
 
 
     public int showStatistics(Statistics statistics) {
