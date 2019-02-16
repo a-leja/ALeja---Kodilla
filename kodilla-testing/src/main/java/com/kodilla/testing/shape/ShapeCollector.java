@@ -10,22 +10,22 @@ public class ShapeCollector {
 
     public void addFigure(Shape shape) {
         return 0;
-    };
+    }
 
 
     public boolean removeFigure(Shape shape) {
         return 0;
-    };
+    }
 
 
     public String getFigure(int n) {
 
         return 0;
-    };
+    }
 
 
     public void showFigures() {
 
         return 0;
-    };
+    }
 }

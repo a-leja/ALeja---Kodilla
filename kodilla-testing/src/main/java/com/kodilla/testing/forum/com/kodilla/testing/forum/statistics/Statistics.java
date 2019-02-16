@@ -10,52 +10,88 @@ public interface Statistics {
 
 public class ForumStatistics implements Statistics{
 
-    public int getUsersQuantity() {
+    int numberOfUsers;
+    int numberOfPosts;
+    int numberOfComments;
+    double averageNumberOfPost;
+    double averageNumberOfComments;
+    double averageNumberOfCommentsPerPost;
 
-        return;
+
+    public void calculateAdvStatistics(Statistics statistics) {
+
+        numberOfUsers = usersNames().size();
+        numberOfPosts = postsCount();
+        numberOfComments = commentsCount();
+
+
+
+        if(numberOfUsers > 0) {
+            averageNumberOfPost =  numberOfPosts/numberOfUsers;
+        } else {
+            averageNumberOfPost = 0;
+            System.out.println("No user provided!");
+        }
+
+
+        if(numberOfUsers > 0) {
+            averageNumberOfComments = numberOfComments/numberOfUsers;
+        } else {
+            averageNumberOfComments = 0;
+            System.out.println("No user provided!");
+        }
+
+        if(numberOfComments > 0 && numberOfPosts > 0) {
+            averageNumberOfCommentsPerPost = numberOfComments/numberOfPosts;
+        } else if(numberOfPosts == 0) {
+            System.out.println("There is not post yet!");
+        } else if(numberOfComments == 0) {
+            System.out.println("There is not comment yet!");
+        }
     }
 
 
-    public int getPostsQuantity() {
 
-        return;
+    public int getNumberOfUsers() {
+        return numberOfUsers;
     }
 
 
-    public int getCommentsQuantity() {
-
-        return;
+    public int getNumberOfPosts() {
+        return numberOfPosts;
     }
 
 
-    public int getAveragePostsQuantity() {
+    public int getNumberOfComments() {
+        return numberOfComments;
+    }
 
-        return;
+
+    public int getAverageNumberOfPosts() {
+
+        return averageNumberOfPost;
+    }
+
+
+    public int getAverageNumberOfComments() {
+
+        return (int) averageNumberOfComments;
+    }
+
+
+    public int getAverageNumberOfCommentsPerPost() {
+        return averageNumberOfCommentsPerPost;
     }
 
 
 
-    public int getAverageCommentsQuantity() {
-
-        return;
-    }
-
-
-    public int getAverageCommentsPerPost() {
-
-        return;
-    }
-
-
-    public int calculateAdvStatistics(Statistics statistics) {
-
-        return;
-    }
-
-
-    public int showStatistics() {
-
-        return;
+    public int showStatistics(Statistics statistics) {
+        System.out.println("Number of users: " + numberOfUsers);
+        System.out.println("Number of posts: " + numberOfPosts);
+        System.out.println("Number of comments: " + numberOfComments);
+        System.out.println("Average number of posts: " + averageNumberOfPost);
+        System.out.println("Average number of comments: " + averageNumberOfComments);
+        System.out.println("Average number of comments per post: " + averageNumberOfCommentsPerPost);
     }
 }
 
