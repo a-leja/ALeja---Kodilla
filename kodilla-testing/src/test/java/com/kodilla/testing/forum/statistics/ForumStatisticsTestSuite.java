@@ -1,4 +1,5 @@
 package com.kodilla.testing.forum.statistics;
+import com.kodilla.testing.forum.com.kodilla.testing.forum.statistics.ForumStatistics;
 import com.kodilla.testing.forum.statistics.Statistics;
 import com.kodilla.testing.forum.statistics.Statistics;
 import com.kodilla.testing.forum.statistics.ForumStatistics;
@@ -8,6 +9,8 @@ import java.util.List;
 import static org.junit.Assert.;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
+
+
 
 public class ForumStatisticsTestSuite {
     Statistics statisticsMock = mock(Statistics.class);
@@ -37,7 +40,7 @@ public class ForumStatisticsTestSuite {
 
     //case: number of posts = 0
     @Test
-    public void testCalcStatisticsCaseNo1() {
+    public void testCalcWhenNumberOfPostsEqualsZero() {
         //Given
         when(statisticsMock.postsCount()).thenReturn(0);
 
@@ -52,7 +55,7 @@ public class ForumStatisticsTestSuite {
 
     //Number of post = 1000
     @Test
-    public void testCalcStatisticsCaseNo2() {
+    public void testCalcWhenNumberOfPostsEqualsOneThousand() {
         //Given
         when(statisticsMock.postsCount()).thenReturn(1000);
 
@@ -65,7 +68,7 @@ public class ForumStatisticsTestSuite {
 
     //Number of comments = 0
     @Test
-    public void testCalcStatisticsCaseNo3() {
+    public void testCalcWhenNumberOfCommentsEqualsZero() {
         //Given
         when(statisticsMock.commentsCount()).thenReturn(0);
 
@@ -80,7 +83,7 @@ public class ForumStatisticsTestSuite {
 
     //Number of users = 0
     @Test
-    public void testCalcStatisticsCaseNo4() {
+    public void testCalcWhenNumberOfUsersEqualsZero() {
         //Given
         List<String> userNames = new ArrayList<>();
 
@@ -94,7 +97,7 @@ public class ForumStatisticsTestSuite {
 
     //Number of users = 100
     @Test
-    public void testCalcStatisticsCaseNo4() {
+    public void testCalcWhenNumberOfUsersEqualsOnaHundred() {
         //Given
         List<String> userNames = new ArrayList<>();
         for (int i; i <= 100; i++) {
@@ -111,7 +114,7 @@ public class ForumStatisticsTestSuite {
 
     //Number of comments > number of posts
     @Test
-    public void testCalcStatisticsCaseNo5() {
+    public void testCalcWhenNumberOfCommentsGreaterThanNumberOfPosts() {
         //Given
         when(statisticsMock.commentsCount()).thenReturn(100);
         when(statisticsMock.postsCount()).thenReturn(1);
@@ -128,7 +131,7 @@ public class ForumStatisticsTestSuite {
 
     //Number of comments < number of posts
     @Test
-    public void testCalcStatisticsCaseNo6() {
+    public void testCalcWhenNumberOfCommentsLessThanNumberOfPosts() {
         //Given
         when(statisticsMock.commentsCount()).thenReturn(1);
         when(statisticsMock.postsCount()).thenReturn(100);
