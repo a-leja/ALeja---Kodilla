@@ -1,6 +1,8 @@
 package com.kodilla.stream;
 
 import com.kodilla.stream.beautifier.PoemBeautifier;
+import com.kodilla.stream.forumuser.Forum;
+import com.kodilla.stream.forumuser.ForumUser;
 import com.kodilla.stream.iterate.NumbersGenerator;
 import com.kodilla.stream.lambda.ExpressionExecutor;
 import com.kodilla.stream.person.People;
@@ -10,7 +12,10 @@ import com.kodilla.stream.reference.Styles;
 
 import com.kodilla.stream.book.BookDirectory;
 import com.kodilla.stream.book.Book;
+import com.kodilla.stream.forumuser.Forum;
 
+import java.util.Map;
+import java.util.stream.Collectors;
 
 
 public class StreamMain {
@@ -80,6 +85,20 @@ public class StreamMain {
         }
 
 
+        //ForumUser exercise 7.3
+        Forum forum = new Forum();
 
-    }
+        Map<int identificator, ForumUser> MapOfForumUsers = forum.getUserList().stream()
+            .filter(ForumUser -> ForumUser.getSex() = 'M')
+                .filter(ForumUser -> ForumUser.getDateOfBirth() >= 1999-2-19)
+            .filter(ForumUser -> ForumUser.getPosts() >=1)
+                .map(ForumUser::toString)
+
+
+
+        System.out.println("# elements in the Map: " + MapOfForumUsers.size());
+        MapOfForumUsers.entrySet().stream()
+            .map(entry -> entry.getKey() + ": " + entry.getValue())
+            .forEach(System.out::println);
+}
 }
