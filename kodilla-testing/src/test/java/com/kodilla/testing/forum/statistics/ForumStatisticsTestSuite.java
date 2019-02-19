@@ -1,8 +1,7 @@
-package com.kodilla.testing.forum.statistics;
+package com.kodilla.testing.forum.statistics.;
+
 import com.kodilla.testing.forum.com.kodilla.testing.forum.statistics.ForumStatistics;
 import com.kodilla.testing.forum.statistics.Statistics;
-import com.kodilla.testing.forum.statistics.Statistics;
-import com.kodilla.testing.forum.statistics.ForumStatistics;
 import org.junit.*;
 import java.util.ArrayList;
 import java.util.List;
