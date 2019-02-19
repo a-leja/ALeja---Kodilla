@@ -9,23 +9,28 @@ public class ShapeCollector {
 
 
     public void addFigure(Shape shape) {
-        return 0;
+        shapes.add(shape);
     }
 
 
     public boolean removeFigure(Shape shape) {
-        return 0;
+        boolean containsShape = false;
+        if(shapes.contains(shape)) {
+             shapes.remove(shape);
+             containsShape = true;
+        }
     }
 
 
     public String getFigure(int n) {
-
-        return 0;
+        shapes.get(n);
     }
 
 
     public void showFigures() {
-
-        return 0;
+        System.out.print("The list of shapes: ");
+        for(Shape shape : shapes) {
+            System.out.print(shape);
+        }
     }
 }
