@@ -17,13 +17,14 @@ public class ShapeCollector {
         boolean containsShape = false;
         if(shapes.contains(shape)) {
              shapes.remove(shape);
-             containsShape = true;
+             return true;
         }
+        return false;
     }
 
 
-    public String getFigure(int n) {
-        shapes.get(n);
+    public Shape getFigure(int n) {
+        return shapes.get(n);
     }
 
 
@@ -32,5 +33,9 @@ public class ShapeCollector {
         for(Shape shape : shapes) {
             System.out.print(shape);
         }
+    }
+
+    public List<Shape> getShapes() {
+        return shapes;
     }
 }

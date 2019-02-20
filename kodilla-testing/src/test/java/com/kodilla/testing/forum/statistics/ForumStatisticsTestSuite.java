@@ -1,11 +1,11 @@
 package com.kodilla.testing.forum.statistics.;
 
 import com.kodilla.testing.forum.com.kodilla.testing.forum.statistics.ForumStatistics;
-import com.kodilla.testing.forum.statistics.Statistics;
+import com.kodilla.testing.forum.statistics.Statistics.;
 import org.junit.*;
 import java.util.ArrayList;
 import java.util.List;
-import static org.junit.Assert.;
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
