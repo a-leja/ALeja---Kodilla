@@ -6,7 +6,7 @@ public class Triangle implements Shape {
         return "Triangle";
     }
 
-    public Integer getField() {
+    public int getField() {
         return 144;
     }
 }
