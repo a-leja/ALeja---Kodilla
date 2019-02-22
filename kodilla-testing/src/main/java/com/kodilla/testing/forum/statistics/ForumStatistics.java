@@ -1,8 +1,8 @@
-package com.kodilla.testing.forum.com.kodilla.testing.forum.statistics;
+package com.kodilla.testing.forum.statistics;
 
 import com.kodilla.testing.forum.statistics.Statistics;
 
-public class ForumStatistics implements Statistics {
+public class ForumStatistics {
 
     int numberOfUsers;
     int numberOfPosts;
@@ -14,9 +14,9 @@ public class ForumStatistics implements Statistics {
 
     public void calculateAdvStatistics(Statistics statistics) {
 
-        numberOfUsers = usersNames().size();
-        numberOfPosts = postsCount();
-        numberOfComments = commentsCount();
+        numberOfUsers = statistics.usersNames().size();
+        numberOfPosts = statistics.postsCount();
+        numberOfComments = statistics.commentsCount();
 
 
 
@@ -78,7 +78,7 @@ public class ForumStatistics implements Statistics {
     }
 
 
-    public int showStatistics(Statistics statistics) {
+    public void showStatistics(Statistics statistics) {
         System.out.println("Number of users: " + numberOfUsers);
         System.out.println("Number of posts: " + numberOfPosts);
         System.out.println("Number of comments: " + numberOfComments);

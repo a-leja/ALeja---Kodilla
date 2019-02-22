@@ -1,16 +1,19 @@
 package com.kodilla.testing.library;
 
 import org.junit.Test;
+import org.mockito.Mock;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-
+import static org.mockito.ArgumentMatchers.anyString;
+import static org.mockito.Mockito.*;
 
 
 public class BookDirectoryTestSuite {
+
     @Test
     public void testListBooksWithConditionsReturnList() {
         // Given
@@ -90,7 +93,8 @@ public class BookDirectoryTestSuite {
         verify(libraryDatabaseMock, times(0)).listBooksWithCondition(anyString());
     }
 
-
+    @Test
+    public void listBooksInHandsOf(LibraryUser libraryUser) {}
 
 
 }

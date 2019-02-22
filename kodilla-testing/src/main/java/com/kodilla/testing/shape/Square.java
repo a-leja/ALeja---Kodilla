@@ -6,7 +6,7 @@ public class Square implements Shape {
         return "Square";
     }
 
-    public Integer getField() {
+    public int getField() {
         return 36;
     }
 }

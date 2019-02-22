@@ -1,14 +1,12 @@
-package com.kodilla.testing.forum.statistics.;
+package com.kodilla.testing.forum.statistics;
 
-import com.kodilla.testing.forum.com.kodilla.testing.forum.statistics.ForumStatistics;
-import com.kodilla.testing.forum.statistics.Statistics.;
 import org.junit.*;
 import java.util.ArrayList;
 import java.util.List;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-
 
 
 public class ForumStatisticsTestSuite {
@@ -44,12 +42,13 @@ public class ForumStatisticsTestSuite {
         when(statisticsMock.postsCount()).thenReturn(0);
 
         //When
-        ForumStatistics.calculateAdvStatistics(statisticsMock);
+        ForumStatistics forumStatistics = new ForumStatistics();
+        forumStatistics.calculateAdvStatistics(statisticsMock);
 
         //Then
-        assertEquals(0, ForumStatistics.numberOfPosts());
-        assertEquals(0, ForumStatistics.averageNumberOfPost());
-        assertEquals(0, ForumStatistics.averageNumberOfCommentsPerPost());
+        assertEquals(0, forumStatistics.getNumberOfPosts());
+        assertEquals(0, forumStatistics.getAverageNumberOfPosts(), 0.01);
+        assertEquals(0, forumStatistics.getAverageNumberOfComments(), 0.01);
     }
 
     //Number of post = 1000
@@ -59,10 +58,11 @@ public class ForumStatisticsTestSuite {
         when(statisticsMock.postsCount()).thenReturn(1000);
 
         //When
-        ForumStatistics.calculateAdvStatistics(statisticsMock);
+        ForumStatistics forumStatistics = new ForumStatistics();
+        forumStatistics.calculateAdvStatistics(statisticsMock);
 
         //Then
-        assertEquals(1000, ForumStatistics.numberOfPosts());
+        assertEquals(1000, forumStatistics.getNumberOfPosts());
     }
 
     //Number of comments = 0
@@ -87,7 +87,7 @@ public class ForumStatisticsTestSuite {
         List<String> userNames = new ArrayList<>();
 
         //When
-        when(statisticsMock.userNames()).thenReturn(0);
+        when(statisticsMock.usersNames()).thenReturn(userNames);
         ForumStatistics.calculateAdvStatistics(statisticsMock);
 
         //Then
@@ -104,7 +104,7 @@ public class ForumStatisticsTestSuite {
         }
 
         //When
-        when(statisticsMock.userNames()).thenReturn(100);
+        when(statisticsMock.usersNames()).thenReturn(100);
         ForumStatistics.calculateAdvStatistics(statisticsMock);
 
         //Then
