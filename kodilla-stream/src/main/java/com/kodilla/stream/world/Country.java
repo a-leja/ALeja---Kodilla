@@ -3,31 +3,31 @@ package com.kodilla.stream.world;
 import java.math.BigDecimal;
 
 public class Country {
-    private String nameOfTheCountry;
-    private BigDecimal noOfPeopleInTheCountry;
+    private String name;
+    private BigDecimal population;
 
-    public Country(String nameOfTheCountry, BigDecimal noOfPeopleInTheCountry) {
-        this.nameOfTheCountry = nameOfTheCountry;
-        this.noOfPeopleInTheCountry = noOfPeopleInTheCountry;
+    public Country(String name, BigDecimal population) {
+        this.name = name;
+        this.population = population;
     }
 
-    public String getNameOfTheCountry() {
-        return nameOfTheCountry;
+    public String getName() {
+        return this.name;
     }
 
-    public BigDecimal getNoOfPeopleInTheCountry() {
-        return noOfPeopleInTheCountry;
+    public BigDecimal getPopulation() {
+        return population;
     }
 
     @Override
     public String toString() {
         return "Country{" +
-                "nameOfTheCountry='" + nameOfTheCountry + '\'' +
-                ", noOfPeopleInTheCountry=" + noOfPeopleInTheCountry +
+                "nameOfTheCountry='" + name + '\'' +
+                ", noOfPeopleInTheCountry=" + population +
                 '}';
     }
 
     BigDecimal getPeopleQuantity() {
-        return noOfPeopleInTheCountry;
+        return population;
     }
 }

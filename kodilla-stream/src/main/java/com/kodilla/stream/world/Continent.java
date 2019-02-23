@@ -5,34 +5,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Continent {
-    private String nameOfTheContinent;
-    private BigDecimal noOfPeopleOnTheContinent;
-    private List<Country> listOfTheCountriesOnTheContinent = new ArrayList<>();
+    private String name;
+    private List<Country> countries = new ArrayList<>();
 
 
-    public Continent(String nameOfTheContinent, BigDecimal noOfPeopleOnTheContinent) {
-        this.nameOfTheContinent = nameOfTheContinent;
-        this.noOfPeopleOnTheContinent = noOfPeopleOnTheContinent;
+    public Continent(String name) {
+        this.name = name;
     }
 
     public String getNameOfTheContinent() {
-        return nameOfTheContinent;
+        return name;
     }
 
-    public BigDecimal getNoOfPeopleOnTheContinent() {
-        return noOfPeopleOnTheContinent;
-    }
 
-    public List<Country> getListOfCountriesOnTheContinent() {
-        return new ArrayList<>(listOfTheCountriesOnTheContinent);
+    public List<Country> getListOfCountries() {
+        return new ArrayList<>(countries);
     }
 
     public void addCountry(Country country) {
-        listOfTheCountriesOnTheContinent.add(country);
+        countries.add(country);
     }
 
     public void removeCountry(Country country) {
-        listOfTheCountriesOnTheContinent.remove(country);
+        countries.remove(country);
     }
 
 }

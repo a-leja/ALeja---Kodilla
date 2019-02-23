@@ -4,8 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class WorldTestSuite {
 
@@ -24,31 +23,24 @@ public class WorldTestSuite {
         Country Chile = new Country("Chile", new BigDecimal(18197209));
 
 
-        List<Country> europeanCountries = new ArrayList<>();
-        europeanCountries.add(germany);
-        europeanCountries.add(spain);
+        Continent europe = new Continent("Europe");
+        europe.addCountry(germany);
+        europe.addCountry(spain);
 
-        List<Country> northAmericanCountries = new ArrayList<>();
-        northAmericanCountries.add(USA);
-        northAmericanCountries.add(Canada);
+        Continent northAmerica = new Continent("North America");
+        northAmerica.addCountry(USA);
+        northAmerica.addCountry(Canada);
 
-        List<Country> southAmericanCountries = new ArrayList<>();
-        southAmericanCountries.add(Argentina);
-        southAmericanCountries.add(Chile);
-
-
-        Continent europe = new Continent(europeanCountries, BigDecimal getNoOfPeopleOnTheContinent());
-        Continent northAmerica = new Continent(BigDecimal getNoOfPeopleOnTheContinent());
-        Continent southAmerica = new Continent(BigDecimal getNoOfPeopleOnTheContinent());
+        Continent southAmerica = new Continent("South America");
+        southAmerica.addCountry(Argentina);
+        southAmerica.addCountry(Chile);
 
 
-        List<Continent> continentsInTheWorld = new ArrayList<>();
-        continentsInTheWorld.add(europe);
-        continentsInTheWorld.add(northAmerica);
-        continentsInTheWorld.add(southAmerica);
+        World world = new World();
+        world.addContinent(europe);
+        world.addContinent(northAmerica);
+        world.addContinent(southAmerica);
 
-
-        World world = List<Continent> continentsInTheWorld;
 
         //When
         BigDecimal totalNoOfPeople = world.getPeopleQuantity();

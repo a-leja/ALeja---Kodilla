@@ -6,21 +6,21 @@ import java.util.List;
 
 public final class World {
 
-    List<Continent> listOfTheContinentsInTheWorld = new ArrayList<>();
+    List<Continent> world = new ArrayList<>();
 
     public void addContinent(Continent continent) {
-        listOfTheContinentsInTheWorld.add(continent);
+        world.add(continent);
     }
 
 
     public void removeContinent(Continent continent) {
-        listOfTheContinentsInTheWorld.remove(continent);
+        world.remove(continent);
     }
 
 
     public BigDecimal getPeopleQuantity() {
-        BigDecimal totalNoOfPeople = listOfTheContinentsInTheWorld.stream()
-                .flatMap(continent -> continent.getListOfCountriesOnTheContinent().stream())
+        BigDecimal totalNoOfPeople = world.stream()
+                .flatMap(continent -> continent.getListOfCountries().stream())
                 .map(country -> country.getPeopleQuantity())
                 .reduce(BigDecimal.ZERO, (sum, current) -> sum = sum.add(current));
         return getPeopleQuantity();
