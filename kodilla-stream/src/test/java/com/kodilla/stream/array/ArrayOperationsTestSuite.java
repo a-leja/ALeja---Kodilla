@@ -2,20 +2,28 @@ package com.kodilla.stream.array;
 
 import org.junit.Assert;
 import org.junit.Test;
+import java.util.Random;
+
 
 public class ArrayOperationsTestSuite {
 
     @Test
     public void testGetAverage() {
         //Given
-        int randomNumbers = [1, 3, 12, 4, 19, 34, 2, 6, 0, 55, 78, 43, 8, 66, 43, 77, 99, 32, 3, 88];
-        // expectedAverage = 550/20
-        double expectedAverage = 27.5;
+        int[] randomNumbers = new int[20];
+        int sum = 0;
+        Random generator = new Random();
+
+        for (int i = 0; i <= 20; i++) {
+            randomNumbers[i] = generator.nextInt(20);
+            sum += randomNumbers[i];
+        }
 
         //When
-        double average = ArrayOperations.getAverage(randomNumbers);
+        double expectedAvg = sum/randomNumbers.length;
+        double actualAvg = ArrayOperations.getAverage(randomNumbers);
 
         //Then
-        Assert.assertEquals(expectedAverage, average, 0);
+        Assert.assertEquals(expectedAvg, actualAvg, 0.01);
     }
 }
