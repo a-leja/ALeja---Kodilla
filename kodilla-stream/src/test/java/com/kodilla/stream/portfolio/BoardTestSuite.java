@@ -1,5 +1,6 @@
 package com.kodilla.stream.portfolio;
 
+import javafx.beans.binding.When;
 import org.junit.Assert;
 import org.junit.Test;
 import java.time.LocalDate;
@@ -137,5 +138,22 @@ public class BoardTestSuite {
 
         //Then
         Assert.assertEquals(2, longTasks);
+    }
+
+
+    @Test
+    public void testAddTaskListAverageWorkingOnTask() {
+        //Given
+        Board project = prepareTestData();
+
+        //When
+        List<TaskList> avgInProgress = new ArrayList<>();
+
+        long tasksinProgress = project.getTaskLists().stream()
+
+
+        //Then
+
+
     }
 }
