@@ -5,7 +5,7 @@ public class Flight {
      private String arrivalAirport;
 
 
-    private Flight(String departureAirport, String arrivalAirport) {
+    public Flight(String departureAirport, String arrivalAirport) {
         this.departureAirport = departureAirport;
         this.arrivalAirport = arrivalAirport;
     }
