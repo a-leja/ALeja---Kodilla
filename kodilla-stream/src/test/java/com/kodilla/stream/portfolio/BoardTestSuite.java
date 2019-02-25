@@ -4,6 +4,7 @@ import javafx.beans.binding.When;
 import org.junit.Assert;
 import org.junit.Test;
 import java.time.LocalDate;
+import java.time.Period;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -149,11 +150,13 @@ public class BoardTestSuite {
         //When
         List<TaskList> avgInProgress = new ArrayList<>();
 
-        long tasksinProgress = project.getTaskLists().stream()
-
-
+        long tasksInProgress = project.getTaskLists().stream()
+                .filter(avgInProgress::contains)
+                .flatMap(tl -> tl.getTasks().stream())
+                .map(t -> Period.between(t.getCreated(), LocalDate.now());
+                .average()
         //Then
-
+        Assert.assertEquals(, avgInProgress, 0.01);
 
     }
 }
