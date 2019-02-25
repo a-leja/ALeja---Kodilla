@@ -18,6 +18,7 @@ public class App {
             System.out.print("There is no connection from " + KrkAlc.getDepartureAirport() + " to " + KrkAlc.getArrivalAirport() + " available");
         }
 
+
         try {
             flightFinder.findFlight(LonNYC);
         } catch (RouteNotFoundException e) {

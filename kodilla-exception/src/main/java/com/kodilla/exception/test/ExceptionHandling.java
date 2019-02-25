@@ -1,8 +1,5 @@
 package com.kodilla.exception.test;
 
-
-
-
 public class ExceptionHandling extends Exception {
 
     public static void main(String args[]) {
