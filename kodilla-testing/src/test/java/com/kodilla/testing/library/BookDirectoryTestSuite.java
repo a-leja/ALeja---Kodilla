@@ -107,7 +107,7 @@ public class BookDirectoryTestSuite {
         List<Book> borrowedBooks = bookLibrary.listBooksInHandsOf(libraryUser);
 
         //Then
-        Assert.assertEquals(0, borrowedBooks);
+        Assert.assertEquals(0, borrowedBooks.size());
     }
 
     //case: user has 1 book borrowed
@@ -124,7 +124,7 @@ public class BookDirectoryTestSuite {
         List<Book> borrowedBooks = bookLibrary.listBooksInHandsOf(libraryUser);
 
         //Then
-        Assert.assertEquals(1, borrowedBooks);
+        Assert.assertEquals(1, borrowedBooks.size());
     }
     //user has 5 books borrowed
     @Test
@@ -140,6 +140,6 @@ public class BookDirectoryTestSuite {
         List<Book> borrowedBooks = bookLibrary.listBooksInHandsOf(libraryUser);
 
         //Then
-        Assert.assertEquals(5, borrowedBooks);
+        Assert.assertEquals(5, borrowedBooks.size());
     }
 }
