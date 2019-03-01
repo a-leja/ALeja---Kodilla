@@ -8,6 +8,7 @@ import java.time.Period;
 import java.util.ArrayList;
 import java.util.List;
 
+import static java.time.temporal.ChronoUnit.DAYS;
 import static java.util.stream.Collectors.toList;
 
 public class BoardTestSuite {
@@ -153,10 +154,14 @@ public class BoardTestSuite {
         long tasksInProgress = project.getTaskLists().stream()
                 .filter(avgInProgress::contains)
                 .flatMap(tl -> tl.getTasks().stream())
-                .map(t -> Period.between(t.getCreated(), LocalDate.now());
+                .mapToLong(t -> DAYS.between(t.getCreated(), LocalDate.now())
                 .average()
+
         //Then
         Assert.assertEquals(, avgInProgress, 0.01);
+
+
+
 
     }
 }
