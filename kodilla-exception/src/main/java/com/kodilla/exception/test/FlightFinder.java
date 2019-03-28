@@ -7,10 +7,9 @@ import java.util.Map;
 public class FlightFinder {
 
 
-
     public boolean findFlight(Flight flight) throws RouteNotFoundException {
-        return findAirport(flight.getDepartureAirport()) && findAirport(flight.getArrivalAirport());
 
+        return findAirport(flight.getDepartureAirport()) && findAirport(flight.getArrivalAirport());
     }
 
     public boolean findAirport(String airport) throws RouteNotFoundException {

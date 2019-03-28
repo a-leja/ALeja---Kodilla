@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 
-public class FileReader {
+public class FileReader extends Throwable {
 
     public void readFile() {
 

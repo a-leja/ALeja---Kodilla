@@ -155,7 +155,7 @@ public class BoardTestSuite {
                 .filter(avgInProgress::contains)
                 .flatMap(tl -> tl.getTasks().stream())
                 .mapToLong(task -> DAYS.between(task.getCreated(), LocalDate.now()))
-                .average()
+                .average().getAsDouble()
         //Then
         Assert.assertEquals(10.00, avgInProgress);
     }
