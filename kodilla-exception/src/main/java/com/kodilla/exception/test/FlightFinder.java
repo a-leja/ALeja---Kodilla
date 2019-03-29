@@ -17,7 +17,7 @@ public class FlightFinder {
         Map<String, Boolean> routes = new HashMap<>();
         //adding airports to the map of available airports
         routes.put("KRK", true);
-        routes.put("ALC", false);
+        routes.put("ALC", true);
         routes.put("OPO", true);
         routes.put("LON", false);
         routes.put("NYC", true);
