@@ -150,13 +150,14 @@ public class BoardTestSuite {
 
         //When
         List<TaskList> avgInProgress = new ArrayList<>();
+        avgInProgress.add(new TaskList("In progress"));
 
         double tasksInProgress = project.getTaskLists().stream()
                 .filter(avgInProgress::contains)
                 .flatMap(tl -> tl.getTasks().stream())
                 .mapToLong(task -> DAYS.between(task.getCreated(), LocalDate.now()))
-                .average().getAsDouble()
+                .average().getAsDouble();
         //Then
-        Assert.assertEquals(10.00, avgInProgress);
+        Assert.assertEquals(10.00, tasksInProgress, 0.01);
     }
 }
