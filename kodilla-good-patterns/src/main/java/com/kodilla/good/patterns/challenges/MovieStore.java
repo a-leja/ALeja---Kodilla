@@ -29,11 +29,13 @@ class MovieStore {
     }
 
     public static void main(String[] args) {
-        String stringOfTitles = getMovies().entrySet().stream()
 
-                .flatMap(entry.getValue().stream())
+        MovieStore movieStore = new MovieStore();
+
+        movieStore.getMovies().entrySet().stream()
+                .flatMap(entry -> entry.getValue().stream())
                 .collect(Collectors.joining("!"));
 
-        System.out.println(stringOfTitles);
+        System.out.println(movieStore);
     }
 }
