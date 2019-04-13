@@ -1,4 +1,7 @@
+package com.kodilla.good.patterns.challenges;
+
 import java.util.*;
+import java.util.stream.Collectors;
 
 class MovieStore {
 
@@ -22,5 +25,15 @@ class MovieStore {
         booksTitlesWithTranslations.put("FL", flashTranslations);
 
         return booksTitlesWithTranslations;
+
+    }
+
+    public static void main(String[] args) {
+        String stringOfTitles = getMovies().entrySet().stream()
+
+                .flatMap(entry.getValue().stream())
+                .collect(Collectors.joining("!"));
+
+        System.out.println(stringOfTitles);
     }
 }
