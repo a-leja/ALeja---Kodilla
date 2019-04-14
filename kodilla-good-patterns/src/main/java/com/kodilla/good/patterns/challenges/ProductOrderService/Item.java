@@ -1,20 +1,17 @@
 package com.kodilla.good.patterns.challenges.ProductOrderService;
 
-import java.time.LocalDate;
 
 public class Item {
 
     private String category;
     private String producer;
     private String status;
-    private LocalDate orderDate;
 
 
-    public Item(String category, String producer, String status, LocalDate orderDate) {
+    public Item(String category, String producer, String status) {
         this.category = category;
         this.producer = producer;
         this.status = status;
-        this.orderDate = orderDate;
     }
 
     public String getCategory() {
@@ -28,6 +25,7 @@ public class Item {
     public String getStatus() {
         return status;
     }
+
 
     @Override
     public String toString() {
