@@ -6,7 +6,7 @@ public class ProductOrderService {
         OrderRequestRetriever orderRequestRetriever = new OrderRequestRetriever();
         OrderRequest orderRequest = orderRequestRetriever.retrieve();
 
-        OrderProcessor orderProcessor = new OrderProcessor(new Notification(), new ProductOrderService(), new OrderRepository());
+        OrderProcessor orderProcessor = new OrderProcessor(new Notification(), new ProcessOrder(), new ItemOrderRepository());
         orderProcessor.process(orderRequest);
     }
 }

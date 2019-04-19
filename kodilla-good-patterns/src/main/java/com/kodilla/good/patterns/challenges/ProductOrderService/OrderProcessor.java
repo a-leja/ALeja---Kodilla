@@ -12,7 +12,7 @@ public class OrderProcessor {
     }
 
     public OrderDTO process(final OrderRequest orderRequest) {
-        boolean isOrdered = orderService.ordered(orderRequest.getUser(), orderRequest.getItem(), orderRequest.getOrderDate());
+        boolean isOrdered = orderService.order(orderRequest.getUser(), orderRequest.getItem(), orderRequest.getOrderDate());
 
         if(isOrdered) {
             notificationService.sendNotification(orderRequest.getUser());
