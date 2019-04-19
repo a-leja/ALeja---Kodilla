@@ -1,4 +1,10 @@
-package com.kodilla.good.patterns.challenges.Food2Door;
-
-public class GlutenFreeShop {
-}
+//package com.kodilla.good.patterns.challenges.Food2Door;
+//
+//public class GlutenFreeShop implements Supplier {
+//
+//    @Override
+//    public boolean process(OrderRequest orderRequest) {
+//        System.out.println("Your order " + Order.getSupplier() + " is being processed");
+//        return true;
+//    }
+//}
