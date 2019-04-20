@@ -1,8 +1,8 @@
 package com.kodilla.good.patterns.challenges.Food2Door;
 
-public class ProcessOrder {
+public class ProcessOrder implements OrderRepository{
 
-    private boolean order(final Customer customer, final Order order) {
+    public boolean createOrder(final Customer customer, final Order order) {
         return true;
     }
 }

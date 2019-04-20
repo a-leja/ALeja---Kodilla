@@ -2,25 +2,25 @@ package com.kodilla.good.patterns.challenges.Food2Door;
 
 public class Order {
 
-    private String supplier;
+    private Supplier supplier;
     private int quantity;
     private String type;
 
-    public Order(String supplier, int quantity, String type) {
+    private Order(Supplier supplier, int quantity, String type) {
         this.supplier = supplier;
         this.quantity = quantity;
         this.type = type;
     }
 
-    public String getSupplier() {
+    private Supplier getSupplier() {
         return supplier;
     }
 
-    public int getQuantity() {
+    private int getQuantity() {
         return quantity;
     }
 
-    public String getType() {
+    private String getType() {
         return type;
     }
 
