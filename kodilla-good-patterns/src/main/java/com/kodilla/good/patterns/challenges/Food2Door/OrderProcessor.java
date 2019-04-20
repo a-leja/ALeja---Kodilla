@@ -6,6 +6,4 @@ public class OrderProcessor {
 
     OrderRequestRetriever orderRequestRetriever = new OrderRequestRetriever();
     OrderRequest orderRequest = orderRequestRetriever.retrieve();
-
-
 }
