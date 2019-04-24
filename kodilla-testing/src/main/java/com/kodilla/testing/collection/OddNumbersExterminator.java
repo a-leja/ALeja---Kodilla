@@ -8,10 +8,11 @@ public class OddNumbersExterminator {
 
     public ArrayList<Integer> exterminate(ArrayList<Integer> numbers) {
         List<Integer> evenNumbers = new ArrayList<>();
-        for(Integer number : numbers){
-            if(number % 2 == 0) {
+        for (Integer number : numbers) {
+            if (number % 2 == 0) {
                 evenNumbers.add(number);
-            };
+            }
+            ;
         }
         return (ArrayList<Integer>) evenNumbers;
     }

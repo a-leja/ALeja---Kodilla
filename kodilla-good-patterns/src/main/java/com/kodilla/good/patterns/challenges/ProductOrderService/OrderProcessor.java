@@ -14,10 +14,10 @@ public class OrderProcessor {
     public OrderDTO process(final OrderRequest orderRequest) {
         boolean isOrdered = orderService.order(orderRequest.getUser(), orderRequest.getItem(), orderRequest.getOrderDate());
 
-        if(isOrdered) {
+        if (isOrdered) {
             notificationService.sendNotification(orderRequest.getUser());
             orderRepository.createOrder(orderRequest.getUser(), orderRequest.getItem(), orderRequest.getOrderDate());
-        return new OrderDTO(orderRequest.getUser(), true);
+            return new OrderDTO(orderRequest.getUser(), true);
         } else {
             return new OrderDTO(orderRequest.getUser(), false);
         }

@@ -1,6 +1,7 @@
 package com.kodilla.spring.library;
 
 import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,8 +25,6 @@ public final class Library {
         libraryDbController.loadData();
     }
 }
-
-
 
 
 // Module 14.2

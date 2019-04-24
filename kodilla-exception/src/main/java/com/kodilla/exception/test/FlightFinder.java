@@ -25,7 +25,7 @@ public class FlightFinder {
 
 
         if (routes.containsKey(airport)) {
-           return routes.get(airport);
+            return routes.get(airport);
         } else {
             throw new RouteNotFoundException("Given airport does not exist!");
         }

@@ -11,17 +11,20 @@ import static junit.framework.TestCase.assertTrue;
 
 public class CollectionTestSuite {
     @Before
-    public void before(){
+    public void before() {
         System.out.println("Test Case: begin");
     }
+
     @After
-    public void after(){
+    public void after() {
         System.out.println("Test Case: end");
     }
+
     @BeforeClass
     public static void beforeClass() {
         System.out.println("Test Suite: begin");
     }
+
     @AfterClass
     public static void afterClass() {
         System.out.println("Test Suite: end");
@@ -57,7 +60,7 @@ public class CollectionTestSuite {
         ArrayList<Integer> numbers = new ArrayList<>();
 
         int number = 0;
-        for(int i=0; i < 6; i++) {
+        for (int i = 0; i < 6; i++) {
             number++;
             numbers.add(number);
         }

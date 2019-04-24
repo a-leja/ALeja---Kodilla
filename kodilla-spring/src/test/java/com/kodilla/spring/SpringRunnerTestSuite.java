@@ -34,7 +34,7 @@ public class SpringRunnerTestSuite {
                 new AnnotationConfigApplicationContext("com.kodilla.spring");
 
         //search by a name
-        Shape shape = (Shape)context.getBean("triangle");
+        Shape shape = (Shape) context.getBean("triangle");
         //When
         String name = shape.getShapeName();
         //Then
@@ -46,7 +46,7 @@ public class SpringRunnerTestSuite {
         //Given
         ApplicationContext context =
                 new AnnotationConfigApplicationContext("com.kodilla.spring");
-        Shape shape = (Shape)context.getBean("createSquare");
+        Shape shape = (Shape) context.getBean("createSquare");
         //When
         String name = shape.getShapeName();
         //Then
@@ -59,7 +59,7 @@ public class SpringRunnerTestSuite {
         //Given
         ApplicationContext context =
                 new AnnotationConfigApplicationContext("com.kodilla.spring");
-        Shape shape = (Shape)context.getBean("chosenShape");
+        Shape shape = (Shape) context.getBean("chosenShape");
         //When
         String name = shape.getShapeName();
         //Then

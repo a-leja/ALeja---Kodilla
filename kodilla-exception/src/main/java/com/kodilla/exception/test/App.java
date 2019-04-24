@@ -36,7 +36,7 @@ public class App {
             System.out.print("There is no connection from " + OpoHel.getDepartureAirport() + " to " + OpoHel.getArrivalAirport() + " available.");
         }
 
-        try{
+        try {
             boolean checkIfAvailable = flightFinder.findFlight(ZrhJfk);
             System.out.println("The airport: " + ZrhJfk.getArrivalAirport() + (checkIfAvailable ? " is available." : " is not available."));
         } catch (RouteNotFoundException e) {

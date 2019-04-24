@@ -2,6 +2,7 @@ package com.kodilla.stream.array;
 
 import org.junit.Assert;
 import org.junit.Test;
+
 import java.util.Random;
 
 
@@ -20,7 +21,7 @@ public class ArrayOperationsTestSuite {
         }
 
         //When
-        double expectedAvg = sum/randomNumbers.length;
+        double expectedAvg = sum / randomNumbers.length;
         double actualAvg = ArrayOperations.getAverage(randomNumbers);
 
         //Then

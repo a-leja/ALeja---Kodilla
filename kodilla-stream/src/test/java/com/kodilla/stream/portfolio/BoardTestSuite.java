@@ -3,6 +3,7 @@ package com.kodilla.stream.portfolio;
 import javafx.beans.binding.When;
 import org.junit.Assert;
 import org.junit.Test;
+
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.ArrayList;

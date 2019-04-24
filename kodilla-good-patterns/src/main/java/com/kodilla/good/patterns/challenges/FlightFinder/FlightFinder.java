@@ -6,14 +6,14 @@ import java.util.stream.Collectors;
 public class FlightFinder {
     private AvailableFlights availableFlights;
 
-    public FlightFinder (AvailableFlights availableFlights) {
+    public FlightFinder(AvailableFlights availableFlights) {
         this.availableFlights = availableFlights;
     }
 
     public Set<Flight> searchForAllFlightsFrom(String departureAirport) {
         return availableFlights.getAvailableFlights().stream()
                 .filter(flight -> departureAirport.equals(flight.getDepartureAirport())
-                .collect(Collectors.toSet());
+                        .collect(Collectors.toSet());
     }
 
     public Set<Flight> searchForAllFlightsTo(String arrivalAirport) {

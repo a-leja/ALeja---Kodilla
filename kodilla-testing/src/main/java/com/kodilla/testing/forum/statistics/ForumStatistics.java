@@ -19,31 +19,29 @@ public class ForumStatistics {
         numberOfComments = statistics.commentsCount();
 
 
-
-        if(numberOfUsers > 0) {
-            averageNumberOfPost =  numberOfPosts/numberOfUsers;
+        if (numberOfUsers > 0) {
+            averageNumberOfPost = numberOfPosts / numberOfUsers;
         } else {
             averageNumberOfPost = 0;
             System.out.println("No user provided!");
         }
 
 
-        if(numberOfUsers > 0) {
-            averageNumberOfComments = numberOfComments/numberOfUsers;
+        if (numberOfUsers > 0) {
+            averageNumberOfComments = numberOfComments / numberOfUsers;
         } else {
             averageNumberOfComments = 0;
             System.out.println("No user provided!");
         }
 
-        if(numberOfComments > 0 && numberOfPosts > 0) {
-            averageNumberOfCommentsPerPost = numberOfComments/numberOfPosts;
-        } else if(numberOfPosts == 0) {
+        if (numberOfComments > 0 && numberOfPosts > 0) {
+            averageNumberOfCommentsPerPost = numberOfComments / numberOfPosts;
+        } else if (numberOfPosts == 0) {
             System.out.println("There is not post yet!");
-        } else if(numberOfComments == 0) {
+        } else if (numberOfComments == 0) {
             System.out.println("There is not comment yet!");
         }
     }
-
 
 
     public int getNumberOfUsers() {

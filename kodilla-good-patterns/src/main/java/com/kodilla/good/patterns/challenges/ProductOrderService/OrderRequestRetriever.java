@@ -11,7 +11,9 @@ public class OrderRequestRetriever {
 
         LocalDate orderDate = LocalDate.of(2018, 8, 16);
 
-    return new OrderRequest(user, item, orderDate);
-    };
+        return new OrderRequest(user, item, orderDate);
+    }
+
+    ;
 
 }

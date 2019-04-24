@@ -35,7 +35,6 @@ public class StreamMain {
         expressionExecutor.executeExpression(3, 4, FunctionalCalculator::divideAByB);
 
 
-
         PoemBeautifier poemBeautifier = new PoemBeautifier();
 
         //lambdas
@@ -58,11 +57,9 @@ public class StreamMain {
         NumbersGenerator.generateEven(20);
 
 
-
         People.getList().stream()
                 .map(s -> s.toUpperCase())
                 .forEach(System.out::println);
-
 
 
         //Kaskadowe łączenie operacji na Stream
@@ -74,13 +71,10 @@ public class StreamMain {
                 .forEach(System.out::println);
 
 
-
         BookDirectory theBookDirectory = new BookDirectory();
         theBookDirectory.getList().stream()
                 .filter(book -> book.getYearOfPublication() > 2005)
                 .forEach(System.out::println);
-
-
 
 
         //ForumUser exercise 7.3
@@ -89,15 +83,14 @@ public class StreamMain {
         Map<Integer, ForumUser> MapOfForumUsers = forum.getUserList().stream()
                 .filter(f -> f.getSex() == 'M')
                 .filter(f -> f.getDateOfBirth().isAfter(LocalDate.now().minusYears(20)))
-                .filter(f -> f.getPosts() >=1)
-                .collect(Collectors.toMap(v -> v.getPosts(), v-> v));
-
+                .filter(f -> f.getPosts() >= 1)
+                .collect(Collectors.toMap(v -> v.getPosts(), v -> v));
 
 
         System.out.println("# elements in the Map: " + MapOfForumUsers.size());
         MapOfForumUsers.entrySet().stream()
-            .map(entry -> entry.getKey() + ": " + entry.getValue())
-            .forEach(System.out::println);
+                .map(entry -> entry.getKey() + ": " + entry.getValue())
+                .forEach(System.out::println);
     }
 
 }

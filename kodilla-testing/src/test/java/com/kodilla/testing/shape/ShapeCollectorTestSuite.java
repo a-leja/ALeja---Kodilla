@@ -1,4 +1,5 @@
 package com.kodilla.testing.shape;
+
 import com.kodilla.testing.shape.Circle;
 import com.kodilla.testing.shape.ShapeCollector;
 import com.kodilla.testing.shape.Square;
@@ -26,7 +27,6 @@ public class ShapeCollectorTestSuite {
         testCounter++;
         System.out.println("Preparing to execute test #" + testCounter);
     }
-
 
 
     @Test
