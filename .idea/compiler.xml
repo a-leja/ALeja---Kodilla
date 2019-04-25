@@ -2,6 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="com.kodilla.ALeja---Kodilla.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.test" target="1.8" />
+      <module name="com.kodilla.com.kodilla.good.patterns.main" target="1.8" />
+      <module name="com.kodilla.com.kodilla.good.patterns.test" target="1.8" />
+      <module name="com.kodilla.kodilla-course.main" target="1.8" />
+      <module name="com.kodilla.kodilla-course.test" target="1.8" />
+      <module name="com.kodilla.kodilla-exception.main" target="1.8" />
+      <module name="com.kodilla.kodilla-exception.test" target="1.8" />
+      <module name="com.kodilla.kodilla-good-patterns.main" target="1.8" />
+      <module name="com.kodilla.kodilla-good-patterns.test" target="1.8" />
+      <module name="com.kodilla.kodilla-patterns.main" target="1.8" />
+      <module name="com.kodilla.kodilla-patterns.test" target="1.8" />
+      <module name="com.kodilla.kodilla-rps.main" target="1.8" />
+      <module name="com.kodilla.kodilla-rps.test" target="1.8" />
+      <module name="com.kodilla.kodilla-spring-intro.main" target="1.8" />
+      <module name="com.kodilla.kodilla-spring-intro.test" target="1.8" />
+      <module name="com.kodilla.kodilla-spring-web.main" target="1.8" />
+      <module name="com.kodilla.kodilla-spring-web.test" target="1.8" />
+      <module name="com.kodilla.kodilla-spring-web2.main" target="1.8" />
+      <module name="com.kodilla.kodilla-spring-web2.test" target="1.8" />
+      <module name="com.kodilla.kodilla-spring.main" target="1.8" />
+      <module name="com.kodilla.kodilla-spring.test" target="1.8" />
+      <module name="com.kodilla.kodilla-stream.main" target="1.8" />
+      <module name="com.kodilla.kodilla-stream.test" target="1.8" />
+      <module name="com.kodilla.kodilla-testing.main" target="1.8" />
+      <module name="com.kodilla.kodilla-testing.test" target="1.8" />
       <module name="kodilla-exception.com.kodilla.kodilla-exception.main" target="1.8" />
       <module name="kodilla-exception.com.kodilla.kodilla-exception.test" target="1.8" />
     </bytecodeTargetLevel>
