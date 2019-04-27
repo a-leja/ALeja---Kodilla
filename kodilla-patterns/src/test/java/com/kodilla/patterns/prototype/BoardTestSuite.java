@@ -5,15 +5,14 @@ import org.junit.Test;
 import java.util.stream.IntStream;
 
 public class BoardTestSuite {
-
     @Test
     public void testToString() {
         //given
-        //creating the TasksList for To-Do lists
-        TasksList listToDo = new TasksList("To-Do Tasks");
+        //creating the TasksList for todos
+        TasksList listToDo = new TasksList("To Do Tasks");
         IntStream.iterate(1, n -> n + 1)
                 .limit(10)
-                .forEach(n -> listToDo.getTasks().add(new Task("To-Do Task number " + n)));
+                .forEach(n -> listToDo.getTasks().add(new Task("To Do Task number " + n)));
 
         //creating the TaskList for tasks in progress
         TasksList listInProgress = new TasksList("In Progress Tasks");
@@ -34,7 +33,7 @@ public class BoardTestSuite {
         board.getLists().add(listDone);
 
 
-        //making a shallow clone of object board
+        //making a shallow copy of object board
         Board clonedBoard = null;
         try {
             clonedBoard = board.shallowCopy();
@@ -42,9 +41,6 @@ public class BoardTestSuite {
         } catch (CloneNotSupportedException e) {
             System.out.println(e);
         }
-        System.out.println(board);
-        System.out.println(clonedBoard);
-
 
         //making a deep copy of object board
         Board deepClonedBoard = null;
@@ -60,7 +56,6 @@ public class BoardTestSuite {
         board.getLists().remove(listToDo);
 
         //Then
-//Then
         System.out.println(board);
         System.out.println(clonedBoard);
         System.out.println(deepClonedBoard);
@@ -69,8 +64,5 @@ public class BoardTestSuite {
         Assert.assertEquals(3, deepClonedBoard.getLists().size());
         Assert.assertEquals(clonedBoard.getLists(), board.getLists());
         Assert.assertNotEquals(deepClonedBoard.getLists(), board.getLists());
-
-
-
     }
 }
