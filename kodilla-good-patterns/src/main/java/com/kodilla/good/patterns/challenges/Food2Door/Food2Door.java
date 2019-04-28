@@ -6,7 +6,7 @@ public class Food2Door {
         OrderRequestRetriever orderRequestRetriever = new OrderRequestRetriever();
         OrderRequest orderRequest = orderRequestRetriever.retrieve();
 
-
-        orderRequestRetriever.processOrder(orderRequest);
+        OrderProcessor orderProcessor = new OrderProcessor(new ProcessOrder(), new ItemOrderRepository());
+        orderProcessor.process(orderRequest);
     }
 }

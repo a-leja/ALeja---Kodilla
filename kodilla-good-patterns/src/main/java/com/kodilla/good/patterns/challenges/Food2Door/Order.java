@@ -6,7 +6,7 @@ public class Order {
     private int quantity;
     private String type;
 
-    private Order(Supplier supplier, int quantity, String type) {
+    public Order(Supplier supplier, int quantity, String type) {
         this.supplier = supplier;
         this.quantity = quantity;
         this.type = type;

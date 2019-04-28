@@ -6,7 +6,7 @@ public class OrderRequestRetriever {
 
         Customer customer = new Customer("Anthony", "Rimmer", "Tony.Rimmer@gmail.com", "0044123456789");
 
-        Order order = new Order(HealthyShop, 12, "Rice milk");
+        Order order = new Order(new HealthyShop(), 12, "Rice milk");
 
         return new OrderRequest(customer, order);
     }
