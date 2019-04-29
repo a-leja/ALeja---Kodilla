@@ -4,6 +4,6 @@ public class Millenials extends User {
 
     public Millenials(String userName) {
         super(userName);
-        this.socialPublisher = new SnapchatPublisher();
+        socialPublisher = new SnapchatPublisher();
     }
 }

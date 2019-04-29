@@ -4,6 +4,6 @@ public class ZGeneration extends User {
 
     public ZGeneration(String userName) {
         super(userName);
-        this.socialPublisher = new TwitterPublisher();
+        socialPublisher = new TwitterPublisher();
     }
 }
