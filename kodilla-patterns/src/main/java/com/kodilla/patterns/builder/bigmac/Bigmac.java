@@ -5,6 +5,7 @@ import java.util.List;
 
 
 public final class Bigmac {
+
     private final String bun;
     private final int burgers;
     private final String sauce;
@@ -65,6 +66,7 @@ public final class Bigmac {
     public List<String> getIngredients() {
         return ingredients;
     }
+
 
     @Override
     public String toString() {
