@@ -19,7 +19,6 @@ public class UserTestSuite {
     }
 
 
-
     @Test
     public void testIndividualSharingStrategy() {
 
