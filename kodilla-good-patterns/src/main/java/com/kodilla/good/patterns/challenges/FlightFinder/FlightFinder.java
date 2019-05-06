@@ -1,8 +1,8 @@
 package com.kodilla.good.patterns.challenges.FlightFinder;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
+
 
 public class FlightFinder {
     private AvailableFlights availableFlights;
@@ -24,17 +24,18 @@ public class FlightFinder {
     }
 
     public Set<Flight> searchForAllFlightsVia(String departureAirport, String via, String arrivalAirport) {
-        Set<Flight> flightsFrom = new HashSet<>();
+        Set<Flight> flightsVia = new HashSet<>();
         availableFlights.getAvailableFlights().stream()
-        .filter(flight -> flight.getDepartureAirport().equals(departureAirport))
+                .filter(flight -> flight.getDepartureAirport().equals(departureAirport))
                 .filter(flight -> flight.getArrivalAirport().equals(via))
 //                .collect(Collectors.toCollection(() -> flightsFrom));
-                .forEach(flightsFrom::add);
-        //        return flightsFrom;
+                .forEach(flightsVia::add);
 
-        flightsFrom.stream()
+        flightsVia.stream()
                 .filter(flight -> flight.getDepartureAirport().equals(via))
                 .filter(flight -> flight.getArrivalAirport().equals(arrivalAirport))
-                .collect(Collectors.toCollection(() -> searchForAllFlightsVia()));
+//                .collect(Collectors.toCollection(() -> searchForAllFlightsVia()));
+                .forEach(flightsVia::add);
+        return flightsVia;
     }
 }
