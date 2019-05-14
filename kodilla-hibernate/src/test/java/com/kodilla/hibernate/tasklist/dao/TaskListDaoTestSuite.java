@@ -17,6 +17,7 @@ public class TaskListDaoTestSuite {
     private static final String LISTNAME = "Done";
     private static final String DESCRIPTION = "All what's been actioned";
 
+
     @Test
     public void testFindByListName() {
         //Given
@@ -26,12 +27,11 @@ public class TaskListDaoTestSuite {
         //When
         List<TaskList> findTaskList = taskListDao.findByListName(listName);
 
-
         //Then
         Assert.assertEquals(LISTNAME, listName);
 
         //CleanUp
-        int id = findTaskList.get(0).getId();
-        taskListDao.deleteById(id);
+//        int id = findTaskList.get(0).getId();
+//        taskListDao.deleteById(id);
     }
 }
