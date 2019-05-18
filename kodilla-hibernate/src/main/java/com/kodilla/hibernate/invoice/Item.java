@@ -16,8 +16,7 @@ public class Item {
     private BigDecimal value;
     private Invoice invoice;
 
-    public Item(int id, Product product, BigDecimal price, int quantity, BigDecimal value) {
-        this.id = id;
+    public Item(Product product, BigDecimal price, int quantity, BigDecimal value) {
         this.product = product;
         this.price = price;
         this.quantity = quantity;

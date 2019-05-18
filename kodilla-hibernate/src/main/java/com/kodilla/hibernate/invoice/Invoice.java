@@ -14,8 +14,7 @@ public class Invoice {
     private List<Item> items = new ArrayList<>();
 
 
-    public Invoice(int id, String number, List<Item> items) {
-        this.id = id;
+    public Invoice(String number, List<Item> items) {
         this.number = number;
         this.items = items;
     }
