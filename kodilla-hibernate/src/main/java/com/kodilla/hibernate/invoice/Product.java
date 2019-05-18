@@ -16,6 +16,8 @@ public class Product {
         this.name = name;
     }
 
+    public Product() {}
+
 
     @Id
     @GeneratedValue
