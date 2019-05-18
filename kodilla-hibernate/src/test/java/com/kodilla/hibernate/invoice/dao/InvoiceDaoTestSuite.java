@@ -43,14 +43,13 @@ public class InvoiceDaoTestSuite {
         Item itemPowerbank = new Item(powerbank, new BigDecimal(50), 4, new BigDecimal(200));
 
 
-
         items.add(itemSmartBand);
         items.add(itemSmartWatch);
         items.add(itemSmartphone);
         items.add(itemLaptop);
         items.add(itemPowerbank);
 
-        invoice.setItems();
+
 
         //When
 

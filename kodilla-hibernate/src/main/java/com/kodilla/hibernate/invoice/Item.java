@@ -86,7 +86,7 @@ public class Item {
         return invoice;
     }
 
-    private void setInvoice(Invoice invoice) {
+    public void setInvoice(Invoice invoice) {
         this.invoice = invoice;
     }
 }
