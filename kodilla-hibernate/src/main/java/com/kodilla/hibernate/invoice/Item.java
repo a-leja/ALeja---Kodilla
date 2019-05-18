@@ -14,6 +14,7 @@ public class Item {
     private BigDecimal price;
     private int quantity;
     private BigDecimal value;
+    private Invoice invoice;
 
     public Item(int id, Product product, BigDecimal price, int quantity, BigDecimal value) {
         this.id = id;
@@ -77,5 +78,16 @@ public class Item {
 
     private void setValue(BigDecimal value) {
         this.value = value;
+    }
+
+
+    @ManyToOne (cascade = CascadeType.ALL)
+    @JoinColumn (name = "INVOICE_ID", nullable = false)
+    public Invoice getInvoice() {
+        return invoice;
+    }
+
+    private void setInvoice(Invoice invoice) {
+        this.invoice = invoice;
     }
 }
