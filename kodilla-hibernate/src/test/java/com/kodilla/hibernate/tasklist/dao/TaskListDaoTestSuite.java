@@ -38,8 +38,8 @@ public class TaskListDaoTestSuite {
         Assert.assertEquals(LISTNAME, listName);
 
         //CleanUp
-//        int id = findTaskList.get(0).getId();
-//        taskListDao.deleteById(id);
+        int id = findTaskList.get(0).getId();
+        taskListDao.deleteById(id);
 
 
 
