@@ -8,6 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DbManagerTestSuite {
+
     @Test
     public void testConnect() throws SQLException {
         //Given
@@ -46,14 +47,14 @@ public class DbManagerTestSuite {
         //Given
         DbManager dbManager = DbManager.getInstance();
 
+
         //When
-        String sqlQuery = "SELECT U.FIRSTNAME, U.LASTNAME, COUNT(*) AS POSTS_NUMBER\n" +
-                "FROM USERS U JOIN POSTS P ON U.ID = P.USER_ID\n" +
-                "GROUP BY P.USER_ID\n" +
+        String sqlQuery = "SELECT U.FIRSTNAME, U.LASTNAME, COUNT(*) AS POSTS_NUMBER" +
+                "FROM USERS U JOIN POSTS P ON U.ID = P.USER_ID" +
+                "GROUP BY P.USER_ID" +
                 "HAVING POSTS_NUMBER >= 2;";
         Statement statement = dbManager.getConnection().createStatement();
         ResultSet rs = statement.executeQuery(sqlQuery);
-
         //Then
         int counter = 0;
         while (rs.next()) {
