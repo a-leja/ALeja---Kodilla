@@ -16,7 +16,7 @@ import java.util.Date;
 
         @NamedQuery(
                 name = "Task.retrieveShortTasks",
-                query = "FROM Task WHERE <= 10"
+                query = "FROM Task WHERE duration <= 10"
         ),
 
         @NamedQuery(
@@ -81,7 +81,7 @@ public class Task {
     @ManyToOne
     @JoinColumn (name = "TASKLIST_ID")
     public TaskList getTaskList() {
-        return getTaskList();
+        return taskList;
     }
 
     private void setId(int id) {
