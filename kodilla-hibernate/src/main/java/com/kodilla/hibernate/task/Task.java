@@ -11,17 +11,17 @@ import java.util.Date;
 
         @NamedQuery(
                 name = "Task.retrieveLongTasks",
-                query = "FROM Task WHERE duration > 10"
+                query = "select * FROM Task WHERE duration > 10"
         ),
 
         @NamedQuery(
                 name = "Task.retrieveShortTasks",
-                query = "FROM Task WHERE duration <= 10"
+                query = "select * FROM Task WHERE duration <= 10"
         ),
 
         @NamedQuery(
                 name = "Task.retrieveTasksWithDurationLongerThan",
-                query = "FROM Task WHERE duration > :DURATION"
+                query = "select * FROM Task WHERE duration > :DURATION"
         )
 })
 
