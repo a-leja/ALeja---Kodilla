@@ -16,7 +16,6 @@ public class HealthyShop implements Supplier {
         return availableProducts;
     }
 
-
     private boolean checkIfAvailable(Order order) {
 
         for (Map.Entry<Product, Integer> entry : allAvailableProducts().entrySet()) {
@@ -24,13 +23,14 @@ public class HealthyShop implements Supplier {
                 return true;
             }
         }
+        System.out.println("Selected product is unavailable.");
         return false;
     }
 
     @Override
-    public boolean process(OrderRequest orderRequest) {
+    public boolean process(Order order) {
 
-        System.out.println(orderRequest.getCustomer() + ", welcome to HealthyShop! Thank you for choosing our product");
-        return checkIfAvailable(Order order);
+        System.out.println("Welcome to HealthyShop! Thank you for choosing our product");
+        return checkIfAvailable(order);
     }
 }

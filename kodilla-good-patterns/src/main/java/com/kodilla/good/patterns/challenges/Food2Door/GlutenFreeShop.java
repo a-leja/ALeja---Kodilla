@@ -1,28 +1,41 @@
 package com.kodilla.good.patterns.challenges.Food2Door;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class GlutenFreeShop implements Supplier {
 
+    private List<Product> allAvailableProducts() {
 
+        List<Product> availableProducts = new ArrayList<>();
 
+        Product oatmeal = new Product("Gluten-free Oatmeal");
+        Product appleMuesli = new Product("Gluten-free Muesli Apple & Banana & Pineapple");
+        Product cacaoMuesli = new Product("Gluten-free Muesli Cacao & Banana & Raspberry");
 
-    private Map<Product, Integer> allAvailableProducts() {
-
-        Map<Product, Integer> availableProducts = new HashMap();
-
-        availableProducts.put(new Product("Gluten-free Oatmeal"), 11);
-        availableProducts.put(new Product("Gluten-free Muesli Apple & Banana & Pineapple"), 5);
-        availableProducts.put(new Product("Gluten-free Muesli Cacao & Banana & Raspberry"), 12);
+        availableProducts.add(oatmeal);
+        availableProducts.add(appleMuesli);
+        availableProducts.add(cacaoMuesli);
 
         return availableProducts;
     }
 
-//    @Override
-//    public boolean process(OrderRequest orderRequest) {
-//
-//        System.out.println("Thank you " + orderRequest.getCustomer() + " for ordering " + orderRequest.getOrder() + ". We would appreciate your feedback on it!");
-//        return true;
-//    }
+    private boolean checkIfAvailable(Order order) {
+
+
+        if (allAvailableProducts().contains(order.getProduct())) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean process(Order order) {
+
+        if (order != null && checkIfAvailable(order)) {
+            System.out.println("Thank you for ordering " + order.getProduct() + ". We would appreciate your feedback on it!");
+        }
+        return false;
+    }
 }
