@@ -23,7 +23,7 @@ public class HealthyShop implements Supplier {
                 return true;
             }
         }
-        System.out.println("Selected product is unavailable.");
+        System.out.println("Selected product is unavailable." + "\n");
         return false;
     }
 

@@ -26,6 +26,8 @@ public class GlutenFreeShop implements Supplier {
 
         if (allAvailableProducts().contains(order.getProduct())) {
             return true;
+        } else {
+            System.out.println("Sorry, the product is currently unavailable.");
         }
         return false;
     }
@@ -33,8 +35,10 @@ public class GlutenFreeShop implements Supplier {
     @Override
     public boolean process(Order order) {
 
+        OrderRequest orderRequest;
+
         if (order != null && checkIfAvailable(order)) {
-            System.out.println("Thank you for ordering " + order.getProduct() + ". We would appreciate your feedback on it!");
+            System.out.println("Thank you for ordering " + order.getProduct().getName() + ". We would appreciate your feedback on it!" + "\n");
         }
         return false;
     }
