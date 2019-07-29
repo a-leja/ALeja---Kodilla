@@ -1,6 +1,6 @@
 package com.kodilla.good.patterns.challenges.Food2Door;
 
-public class App {
+public class Food2DoorApp {
 
     public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class App {
 
         Order healthyShopOrder = new Order(new Product("BIO Chia seeds"), 12);
         Order glutenFreeShopOrder = new Order(new Product("Gluten-free Oatmeal"), 1);
-        Order extraFoodShopOrder = new Order(new Product("BIO Chia seeds"), 1);
+        Order extraFoodShopOrder = new Order(new Product("BIO Banana"), 1);
 
         healthyShop.process(healthyShopOrder);
         glutenFreeShop.process(glutenFreeShopOrder);
