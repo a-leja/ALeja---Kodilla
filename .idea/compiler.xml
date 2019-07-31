@@ -12,8 +12,18 @@
       <module name="com.kodilla.kodilla-exception.test" target="1.8" />
       <module name="com.kodilla.kodilla-good-patterns.main" target="1.8" />
       <module name="com.kodilla.kodilla-good-patterns.test" target="1.8" />
+      <module name="com.kodilla.kodilla-hibernate.main" target="1.8" />
+      <module name="com.kodilla.kodilla-hibernate.test" target="1.8" />
+      <module name="com.kodilla.kodilla-hibernate2.main" target="1.8" />
+      <module name="com.kodilla.kodilla-hibernate2.test" target="1.8" />
+      <module name="com.kodilla.kodilla-hibernate3.main" target="1.8" />
+      <module name="com.kodilla.kodilla-hibernate3.test" target="1.8" />
+      <module name="com.kodilla.kodilla-jdbc.main" target="1.8" />
+      <module name="com.kodilla.kodilla-jdbc.test" target="1.8" />
       <module name="com.kodilla.kodilla-patterns.main" target="1.8" />
       <module name="com.kodilla.kodilla-patterns.test" target="1.8" />
+      <module name="com.kodilla.kodilla-patterns2.main" target="1.8" />
+      <module name="com.kodilla.kodilla-patterns2.test" target="1.8" />
       <module name="com.kodilla.kodilla-rps.main" target="1.8" />
       <module name="com.kodilla.kodilla-rps.test" target="1.8" />
       <module name="com.kodilla.kodilla-spring-intro.main" target="1.8" />
