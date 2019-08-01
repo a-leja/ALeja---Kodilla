@@ -5,21 +5,25 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
+@NamedQuery(
+        name = "Employee.findByLastName",
+        query = "SELECT * FROM Employee WHERE lastName :LastName"
+)
+
 @Entity
 @Table(name = "EMPLOYEES")
 public class Employee {
     private int id;
-    private String firstname;
-    private String lastname;
+    private String firstName;
+    private String lastName;
     private List<Company> companies = new ArrayList<>();
-
 
     public Employee() {
     }
 
-    public Employee(String firstname, String lastname) {
-        this.firstname = firstname;
-        this.lastname = lastname;
+    public Employee(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName= lastName;
     }
 
     @Id
@@ -33,25 +37,25 @@ public class Employee {
     @NotNull
     @Column(name = "FIRSTNAME")
     public String getFirstname() {
-        return firstname;
+        return firstName;
     }
 
     @NotNull
     @Column(name = "LASTNAME")
     public String getLastname() {
-        return lastname;
+        return lastName;
     }
 
     private void setId(int id) {
         this.id = id;
     }
 
-    private void setFirstname(String firstname) {
-        this.firstname = firstname;
+    private void setFirstname(String firstName) {
+        this.firstName = firstName;
     }
 
-    private void setLastname(String lastname) {
-        this.lastname = lastname;
+    private void setLastname(String lastName) {
+        this.lastName = lastName;
     }
 
     @ManyToMany (cascade = CascadeType.ALL)
