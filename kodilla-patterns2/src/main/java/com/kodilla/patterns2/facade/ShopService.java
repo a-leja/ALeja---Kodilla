@@ -2,7 +2,6 @@ package com.kodilla.patterns2.facade;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -12,8 +11,10 @@ import java.util.Random;
 @Service
 public class ShopService {
     private final List<Order> orders = new ArrayList<>();
+
     @Autowired
     private Authenticator authenticator;
+
     @Autowired
     private ProductService productService;
 
@@ -102,10 +103,10 @@ public class ShopService {
                 .iterator();
         while (orderIterator.hasNext()) {
             Order theOrder = orderIterator.next();
-             if (theOrder.isVerified()) {
+            if (theOrder.isVerified()) {
                 theOrder.setSubmitted(true);
-             }
-             return theOrder.isSubmitted();
+            }
+            return theOrder.isSubmitted();
         }
         return false;
     }

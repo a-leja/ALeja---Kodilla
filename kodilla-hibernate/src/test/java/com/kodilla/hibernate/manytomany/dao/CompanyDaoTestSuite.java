@@ -100,13 +100,13 @@ public class CompanyDaoTestSuite {
         Assert.assertEquals(1, employeesWithLastName.size());
 
 //        //CleanUp
-//        try {
-//            companyDao.delete(softwareMachine);
-//            companyDao.delete(greyMatter);
-//            companyDao.delete(dataMaesters);
-//        } catch (Exception e) {
-//            //do nothing
-//        }
+        try {
+            companyDao.delete(softwareMachine);
+            companyDao.delete(greyMatter);
+            companyDao.delete(dataMaesters);
+        } catch (Exception e) {
+            //do nothing
+        }
     }
 
     @Test

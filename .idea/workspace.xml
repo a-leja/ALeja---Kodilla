@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d9c90c-095e-482b-9dcd-bb05e1bbc8fe" name="Default Changelist" comment="fix project structure">
+      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchByFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/facade/SearchByFragmentTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/ItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderProcessingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/ShopServiceTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/Patterns2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/KodillaPatterns2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/Patterns2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/KodillaPatterns2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -124,11 +147,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/facade/SearchByFragmentTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-263">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="315">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchByFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,25 +220,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/dao/TaskListDao.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/ProductDao.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/ItemDao.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/TaskList.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/TaskFinancialDetails.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/task/dao/TaskFinancialDetailsDaoTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/Patterns2Application.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/Item.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/Order.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTest.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ProductService.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Order.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/library/BookDirectoryTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/build.gradle" />
         <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/statistics/ForumStatisticsTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/Product.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/OrderRequestRetriever.java" />
@@ -196,19 +245,32 @@
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/Food2DoorApp.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/GlutenFreeShop.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/test/java/com/kodilla/good/patterns/challenges/Food2Door/Food2DoorTestSuite.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Item.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Invoice.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Product.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Item.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ProductService.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Order.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/ItemDto.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderDto.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderProcessingException.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/ShopServiceTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchByFragment.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/facade/SearchByFragmentTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" />
       </list>
     </option>
   </component>
@@ -223,10 +285,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="127" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="137" />
     <option name="y" value="23" />
-    <option name="width" value="1313" />
+    <option name="width" value="1303" />
     <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -235,6 +297,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,18 +369,8 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="manytomany" type="462c0819:PsiDirectoryNode" />
+              <item name="facade" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
@@ -342,26 +395,6 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
@@ -388,7 +421,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,7 +430,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564666240226" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565299950156" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -441,8 +473,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CompanyDaoTestSuite.findByFragment">
-    <configuration name="CompanyDaoTestSuite.findByFragment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SearchByFragmentTestSuite.RetrieveCompanyLikeTest">
+    <configuration name="CompanyDaoTestSuite.findByLastName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.kodilla.kodilla-hibernate.test" />
       <extension name="coverage">
         <pattern>
@@ -452,70 +484,69 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.dao" />
       <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite" />
-      <option name="METHOD_NAME" value="findByFragment" />
+      <option name="METHOD_NAME" value="findByLastName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Food2DoorTestSuite.glutenFreeShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.kodilla.kodilla-good-patterns.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.good.patterns.challenges.FlightFinder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.good.patterns.challenges.Food2Door" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.good.patterns.challenges.FlightFinder.Food2DoorTestSuite" />
-      <option name="METHOD_NAME" value="glutenFreeShopTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvoiceDaoTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchByFragmentTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.kodilla.kodilla-hibernate.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.invoice.dao.*" />
+          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.dao.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.invoice.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite" />
+      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.dao.facade" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.dao.facade.SearchByFragmentTestSuite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvoiceDaoTestSuite.testInvoiceDaoSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.kodilla.kodilla-hibernate.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.invoice.dao.*" />
+          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.dao.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.invoice.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite" />
-      <option name="METHOD_NAME" value="testInvoiceDaoSave" />
+      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.dao.facade" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.dao.facade.SearchByFragmentTestSuite" />
+      <option name="METHOD_NAME" value="RetrieveCompanyLikeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskListDaoTestSuite.testNamedQueries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.kodilla.kodilla-hibernate.test" />
+    <configuration name="ShopServiceTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.kodilla.kodilla-patterns2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.tasklist.dao.*" />
+          <option name="PATTERN" value="com.kodilla.patterns2.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.tasklist.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.tasklist.dao.TaskListDaoTestSuite" />
-      <option name="METHOD_NAME" value="testNamedQueries" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.facade.ShopServiceTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopServiceTestSuite.testShopFacade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.kodilla.kodilla-patterns2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns2.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.facade.ShopServiceTestSuite" />
+      <option name="METHOD_NAME" value="testShopFacade" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -589,6 +620,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KodillaPatterns2Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.kodilla.kodilla-patterns2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.patterns2.KodillaPatterns2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KodillaPatterns2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="com.kodilla.kodilla-patterns2.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.patterns2.Patterns2Application" />
@@ -612,11 +650,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CompanyDaoTestSuite.findByFragment" />
-        <item itemvalue="JUnit.TaskListDaoTestSuite.testNamedQueries" />
-        <item itemvalue="JUnit.InvoiceDaoTestSuite.testInvoiceDaoSave" />
-        <item itemvalue="JUnit.InvoiceDaoTestSuite" />
-        <item itemvalue="JUnit.Food2DoorTestSuite.glutenFreeShopTest" />
+        <item itemvalue="JUnit.SearchByFragmentTestSuite.RetrieveCompanyLikeTest" />
+        <item itemvalue="JUnit.SearchByFragmentTestSuite" />
+        <item itemvalue="JUnit.ShopServiceTestSuite.testShopFacade" />
+        <item itemvalue="JUnit.ShopServiceTestSuite" />
+        <item itemvalue="JUnit.CompanyDaoTestSuite.findByLastName" />
       </list>
     </recent_temporary>
   </component>
@@ -732,7 +770,16 @@
       <workItem from="1564586183006" duration="34000" />
       <workItem from="1564586220290" duration="6901000" />
       <workItem from="1564595076310" duration="781000" />
-      <workItem from="1564609254952" duration="9047000" />
+      <workItem from="1564609254952" duration="9240000" />
+      <workItem from="1564666839617" duration="278000" />
+      <workItem from="1564667345832" duration="458000" />
+      <workItem from="1564668485602" duration="654000" />
+      <workItem from="1564749322462" duration="1000" />
+      <workItem from="1564750784510" duration="1548000" />
+      <workItem from="1564753051919" duration="73000" />
+      <workItem from="1564780794502" duration="361000" />
+      <workItem from="1565209453352" duration="6686000" />
+      <workItem from="1565294079388" duration="5494000" />
     </task>
     <task id="LOCAL-00001" summary="fix project structure">
       <created>1556213632711</created>
@@ -745,39 +792,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InvoiceDaoTestSuite - 2019.07.31 at 18h 53m 47s.xml">
-      <configuration name="InvoiceDaoTestSuite" configurationId="JUnit" />
+    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 01m 27s.xml">
+      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceDaoTestSuite_testInvoiceDaoSave - 2019.07.31 at 19h 03m 44s.xml">
-      <configuration name="InvoiceDaoTestSuite.testInvoiceDaoSave" configurationId="JUnit" />
+    <history-entry file="SearchByFragmentTestSuite - 2019.08.08 at 23h 04m 19s.xml">
+      <configuration name="SearchByFragmentTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceDaoTestSuite_testInvoiceDaoSave - 2019.07.31 at 20h 43m 38s.xml">
-      <configuration name="InvoiceDaoTestSuite.testInvoiceDaoSave" configurationId="JUnit" />
+    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 05m 08s.xml">
+      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceDaoTestSuite_testInvoiceDaoSave - 2019.07.31 at 20h 44m 11s.xml">
-      <configuration name="InvoiceDaoTestSuite.testInvoiceDaoSave" configurationId="JUnit" />
+    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 06m 23s.xml">
+      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceDaoTestSuite_testInvoiceDaoSave - 2019.07.31 at 20h 56m 15s.xml">
-      <configuration name="InvoiceDaoTestSuite.testInvoiceDaoSave" configurationId="JUnit" />
+    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 08m 19s.xml">
+      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceDaoTestSuite_testInvoiceDaoSave - 2019.07.31 at 23h 52m 13s.xml">
-      <configuration name="InvoiceDaoTestSuite.testInvoiceDaoSave" configurationId="JUnit" />
+    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 09m 29s.xml">
+      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceDaoTestSuite_testInvoiceDaoSave - 2019.07.31 at 23h 52m 19s.xml">
-      <configuration name="InvoiceDaoTestSuite.testInvoiceDaoSave" configurationId="JUnit" />
+    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 17m 34s.xml">
+      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceDaoTestSuite_testInvoiceDaoSave - 2019.07.31 at 23h 59m 06s.xml">
-      <configuration name="InvoiceDaoTestSuite.testInvoiceDaoSave" configurationId="JUnit" />
+    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 19m 00s.xml">
+      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceDaoTestSuite_testInvoiceDaoSave - 2019.08.01 at 00h 03m 11s.xml">
-      <configuration name="InvoiceDaoTestSuite.testInvoiceDaoSave" configurationId="JUnit" />
+    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 20m 43s.xml">
+      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskListDaoTestSuite_testNamedQueries - 2019.08.01 at 12h 43m 53s.xml">
-      <configuration name="TaskListDaoTestSuite.testNamedQueries" configurationId="JUnit" />
+    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 26m 20s.xml">
+      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267899000" />
+    <option name="totallyTimeSpent" value="283645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -789,10 +836,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="823" y="23" width="617" height="828" extended-state="0" />
+    <frame x="137" y="23" width="1303" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49798387" weight="0.37337336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49798387" visible="true" weight="0.3037272" />
       <window_info id="Structure" order="1" sideWeight="0.5020161" side_tool="true" weight="0.44615385" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -803,14 +850,14 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8958904" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.86277175" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.569863" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32692307" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49817917" weight="0.3" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.3292517" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4983089" weight="0.61277175" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49817917" weight="0.29755434" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32880434" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4983089" weight="0.53125" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5018208" side_tool="true" weight="0.16734694" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -903,117 +950,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/OrderRequestRetriever.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/ProductOrderService/OrderProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/OrderProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/OrderDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/ProcessOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/OrderRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/FlightFinder/AvailableFlights.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/FlightFinder/Flight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/FlightFinder/FlightFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/MovieStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/FlightFinder/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/test/java/com/kodilla/good/patterns/challenges/FlightFinder/FlightFinderTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1223,13 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.4.RELEASE/2edd9ce8f7fe3dafb83eef9248b882abc6fe6192/spring-boot-autoconfigure-2.1.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1">
@@ -1241,13 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="77" lean-forward="true" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -1272,16 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1292,10 +1204,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-961">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/ItemDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderProcessingException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/ShopServiceTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1061">
+          <caret line="77" column="48" lean-forward="true" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1212">
+          <caret line="49" column="93" selection-start-line="49" selection-start-column="93" selection-end-line="49" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1304,18 +1376,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1325,14 +1387,47 @@
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchByFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="300">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/facade/SearchByFragmentTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1388,11 +1483,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Hibernate|main|kodilla-hibernate|kodilla</last-edited>
+          <last-edited>main|kodilla-patterns|kodilla</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3073436" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

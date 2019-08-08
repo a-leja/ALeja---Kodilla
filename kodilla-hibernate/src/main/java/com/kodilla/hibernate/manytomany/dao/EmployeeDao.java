@@ -13,4 +13,7 @@ import java.util.List;
 public interface EmployeeDao extends CrudRepository<Employee, Integer> {
     @Query
     List<Employee> findByLastName(@Param("lastName") String lastName);
+
+    @Query
+    List<Employee> findByFragment(@Param("FRAGMENT") String fragment);
 }
