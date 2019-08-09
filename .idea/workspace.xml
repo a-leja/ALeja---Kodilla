@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d9c90c-095e-482b-9dcd-bb05e1bbc8fe" name="Default Changelist" comment="fix project structure">
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchByFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/facade/SearchByFragmentTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/ItemDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderProcessingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/ShopServiceTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/AbstractTaxiOrderDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ChildSeatDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ExpressDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/MyTaxiNetworkOrderDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiNetworkOrderDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/UberNetworkOrderDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/VipDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/Patterns2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/KodillaPatterns2Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/Patterns2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/KodillaPatterns2ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/BasicTaxiOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/BasicTaxiOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/taxiportal.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrderTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -97,6 +83,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/kodilla_course$com_kodilla_patterns2_decorator_in_com_kodilla_kodilla_patterns2_test.ic" NAME="com.kodilla.patterns2.decorator in com.kodilla.kodilla-patterns2.test Coverage Results" MODIFIED="1565377082033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kodilla.patterns2.decorator.*</FILTER>
+    </SUITE>
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -146,36 +137,12 @@
     <favorites_list name="kodilla-course" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/facade/SearchByFragmentTestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrderTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="297">
+              <caret line="115" column="40" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,13 +151,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchByFragment.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiNetworkOrderDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="222">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -220,18 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/Patterns2Application.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/Item.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/Order.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTest.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/library/BookDirectoryTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/statistics/ForumStatisticsTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/Product.java" />
-        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/OrderRequestRetriever.java" />
-        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/OrderRequest.java" />
-        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/Order.java" />
-        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/Supplier.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/OrderDTO.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/test/java/com/kodilla/good/patterns/challenges/FlightFinder/FlightFinderTest.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/FlightFinder/App.java" />
@@ -271,6 +223,18 @@
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/facade/SearchByFragmentTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrder.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/BasicTaxiOrder.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/taxiportal.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/AbstractTaxiOrderDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiNetworkOrderDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ChildSeatDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/MyTaxiNetworkOrderDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/UberNetworkOrderDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ExpressDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/VipDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrderTestSuite.java" />
       </list>
     </option>
   </component>
@@ -286,9 +250,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="137" />
+    <option name="x" value="750" />
     <option name="y" value="23" />
-    <option name="width" value="1303" />
+    <option name="width" value="690" />
     <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -297,6 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -308,81 +273,59 @@
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="manytomany" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="manytomany" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns2" type="462c0819:PsiDirectoryNode" />
+              <item name="taxiportal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="manytomany" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -390,37 +333,26 @@
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns2" type="462c0819:PsiDirectoryNode" />
+              <item name="taxiportal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,7 +362,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565299950156" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565387776830" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -473,80 +405,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SearchByFragmentTestSuite.RetrieveCompanyLikeTest">
-    <configuration name="CompanyDaoTestSuite.findByLastName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.kodilla.kodilla-hibernate.test" />
+  <component name="RunManager" selected="JUnit.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDescription">
+    <configuration name="TaxiOrderTestSuite.testMyTaxiWithChildSeatGetDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.kodilla.kodilla-patterns2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.dao.*" />
+          <option name="PATTERN" value="com.kodilla.patterns2.decorator.taxiportal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite" />
-      <option name="METHOD_NAME" value="findByLastName" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2.decorator.taxiportal" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.decorator.taxiportal.TaxiOrderTestSuite" />
+      <option name="METHOD_NAME" value="testMyTaxiWithChildSeatGetDescription" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchByFragmentTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.kodilla.kodilla-hibernate.test" />
+    <configuration name="TaxiOrderTestSuite.testUberWithTwoChildSeatGetCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.kodilla.kodilla-patterns2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.dao.facade.*" />
+          <option name="PATTERN" value="com.kodilla.patterns2.decorator.taxiportal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.dao.facade" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.dao.facade.SearchByFragmentTestSuite" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.kodilla.kodilla-hibernate.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.dao.facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.dao.facade" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.dao.facade.SearchByFragmentTestSuite" />
-      <option name="METHOD_NAME" value="RetrieveCompanyLikeTest" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2.decorator.taxiportal" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.decorator.taxiportal.TaxiOrderTestSuite" />
+      <option name="METHOD_NAME" value="testUberWithTwoChildSeatGetCost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopServiceTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaxiOrderTestSuite.testUberWithTwoChildSeatGetDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.kodilla.kodilla-patterns2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns2.facade.*" />
+          <option name="PATTERN" value="com.kodilla.patterns2.decorator.taxiportal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns2" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.facade.ShopServiceTestSuite" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2.decorator.taxiportal" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.decorator.taxiportal.TaxiOrderTestSuite" />
+      <option name="METHOD_NAME" value="testUberWithTwoChildSeatGetDescription" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopServiceTestSuite.testShopFacade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.kodilla.kodilla-patterns2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns2.facade.*" />
+          <option name="PATTERN" value="com.kodilla.patterns2.decorator.taxiportal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns2" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.facade.ShopServiceTestSuite" />
-      <option name="METHOD_NAME" value="testShopFacade" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2.decorator.taxiportal" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.decorator.taxiportal.TaxiOrderTestSuite" />
+      <option name="METHOD_NAME" value="testVipTaxiWithChildSeatExpressGetCost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.kodilla.kodilla-patterns2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns2.decorator.taxiportal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2.decorator.taxiportal" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.decorator.taxiportal.TaxiOrderTestSuite" />
+      <option name="METHOD_NAME" value="testVipTaxiWithChildSeatExpressGetDescription" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -650,11 +584,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchByFragmentTestSuite.RetrieveCompanyLikeTest" />
-        <item itemvalue="JUnit.SearchByFragmentTestSuite" />
-        <item itemvalue="JUnit.ShopServiceTestSuite.testShopFacade" />
-        <item itemvalue="JUnit.ShopServiceTestSuite" />
-        <item itemvalue="JUnit.CompanyDaoTestSuite.findByLastName" />
+        <item itemvalue="JUnit.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDescription" />
+        <item itemvalue="JUnit.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" />
+        <item itemvalue="JUnit.TaxiOrderTestSuite.testUberWithTwoChildSeatGetDescription" />
+        <item itemvalue="JUnit.TaxiOrderTestSuite.testUberWithTwoChildSeatGetCost" />
+        <item itemvalue="JUnit.TaxiOrderTestSuite.testMyTaxiWithChildSeatGetDescription" />
       </list>
     </recent_temporary>
   </component>
@@ -779,7 +713,8 @@
       <workItem from="1564753051919" duration="73000" />
       <workItem from="1564780794502" duration="361000" />
       <workItem from="1565209453352" duration="6686000" />
-      <workItem from="1565294079388" duration="5494000" />
+      <workItem from="1565294079388" duration="5705000" />
+      <workItem from="1565375983472" duration="10836000" />
     </task>
     <task id="LOCAL-00001" summary="fix project structure">
       <created>1556213632711</created>
@@ -792,39 +727,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 01m 27s.xml">
-      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
+    <history-entry file="TaxiOrderTestSuite_testTaxiNetworkGetDescription - 2019.08.09 at 22h 58m 50s.xml">
+      <configuration name="TaxiOrderTestSuite.testTaxiNetworkGetDescription" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchByFragmentTestSuite - 2019.08.08 at 23h 04m 19s.xml">
-      <configuration name="SearchByFragmentTestSuite" configurationId="JUnit" />
+    <history-entry file="TaxiOrderTestSuite_testMyTaxiWithChildSeatGetCost - 2019.08.09 at 23h 15m 58s.xml">
+      <configuration name="TaxiOrderTestSuite.testMyTaxiWithChildSeatGetCost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 05m 08s.xml">
-      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
+    <history-entry file="TaxiOrderTestSuite_getDescription - 2019.08.09 at 23h 17m 45s.xml">
+      <configuration name="TaxiOrderTestSuite.getDescription" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 06m 23s.xml">
-      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
+    <history-entry file="TaxiOrderTestSuite_getDescription - 2019.08.09 at 23h 22m 44s.xml">
+      <configuration name="TaxiOrderTestSuite.getDescription" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 08m 19s.xml">
-      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
+    <history-entry file="TaxiOrderTestSuite_testMyTaxiWithChildSeatGetDescription - 2019.08.09 at 23h 26m 46s.xml">
+      <configuration name="TaxiOrderTestSuite.testMyTaxiWithChildSeatGetDescription" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 09m 29s.xml">
-      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
+    <history-entry file="TaxiOrderTestSuite_testUberWithTwoChildSeatGetCost - 2019.08.09 at 23h 39m 04s.xml">
+      <configuration name="TaxiOrderTestSuite.testUberWithTwoChildSeatGetCost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 17m 34s.xml">
-      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
+    <history-entry file="TaxiOrderTestSuite_testUberWithTwoChildSeatGetDescription - 2019.08.09 at 23h 42m 15s.xml">
+      <configuration name="TaxiOrderTestSuite.testUberWithTwoChildSeatGetDescription" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 19m 00s.xml">
-      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
+    <history-entry file="TaxiOrderTestSuite_testUberWithTwoChildSeatGetDescription - 2019.08.09 at 23h 42m 40s.xml">
+      <configuration name="TaxiOrderTestSuite.testUberWithTwoChildSeatGetDescription" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 20m 43s.xml">
-      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
+    <history-entry file="TaxiOrderTestSuite_testVipTaxiWithChildSeatExpressGetCost - 2019.08.09 at 23h 55m 21s.xml">
+      <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchByFragmentTestSuite_RetrieveCompanyLikeTest - 2019.08.08 at 23h 26m 20s.xml">
-      <configuration name="SearchByFragmentTestSuite.RetrieveCompanyLikeTest" configurationId="JUnit" />
+    <history-entry file="TaxiOrderTestSuite_testVipTaxiWithChildSeatExpressGetDescription - 2019.08.09 at 23h 55m 29s.xml">
+      <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDescription" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283645000" />
+    <option name="totallyTimeSpent" value="294692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -836,10 +771,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="137" y="23" width="1303" height="828" extended-state="0" />
+    <frame x="750" y="23" width="690" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49798387" visible="true" weight="0.3037272" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49798387" weight="0.6095679" />
       <window_info id="Structure" order="1" sideWeight="0.5020161" side_tool="true" weight="0.44615385" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -850,11 +785,11 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.86277175" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45788044" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.569863" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32692307" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32608697" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49817917" weight="0.29755434" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32880434" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4983089" weight="0.53125" />
@@ -866,6 +801,7 @@
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3287858" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.3328767" />
       <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.58356166" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3287037" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -950,139 +886,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/test/java/com/kodilla/good/patterns/challenges/FlightFinder/FlightFinderTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/test/java/com/kodilla/good/patterns/challenges/FlightFinder/Food2DoorTestSuite.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="833" selection-start-line="833" selection-end-line="833" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/ExtraFoodShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/HealthyShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/GlutenFreeShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/Food2DoorApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/test/java/com/kodilla/good/patterns/challenges/Food2Door/Food2DoorTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HELP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Invoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="42" column="100" selection-start-line="42" selection-start-column="100" selection-end-line="42" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
-            <element signature="e#1712#1713#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
-            <element signature="e#1789#1790#0" expanded="true" />
-            <element signature="e#1827#1828#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -1354,16 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/ShopServiceTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1061">
-          <caret line="77" column="48" lean-forward="true" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1212">
@@ -1391,20 +1184,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchByFragment.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/facade/SearchByFragmentTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        <state relative-caret-position="96">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/facade/SearchByFragmentTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="225">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1421,10 +1214,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchByFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/taxiportal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/BasicTaxiOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/AbstractTaxiOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ChildSeatDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/MyTaxiNetworkOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/UberNetworkOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ExpressDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/VipDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiNetworkOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrderTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="115" column="40" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1483,7 +1409,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>main|kodilla-patterns|kodilla</last-edited>
+          <last-edited>test|kodilla-patterns2|kodilla</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
