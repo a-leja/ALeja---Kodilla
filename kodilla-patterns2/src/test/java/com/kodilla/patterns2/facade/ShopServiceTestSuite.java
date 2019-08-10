@@ -12,6 +12,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.math.BigDecimal;
 
+import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ShopServiceTestSuite {
@@ -75,6 +77,7 @@ public class ShopServiceTestSuite {
         order.addItem(new ItemDto(11L, 3));
 
         try {
+            LOGGER.info("test");
             orderFacade.processOrder(order, 1L);
         } catch (OrderProcessingException e) {
             //business exception - should be handled in real application

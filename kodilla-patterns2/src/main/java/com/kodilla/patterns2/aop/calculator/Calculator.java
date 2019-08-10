@@ -2,7 +2,6 @@ package com.kodilla.patterns2.aop.calculator;
 
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.stereotype.Component;
-
 import java.math.BigDecimal;
 
 @Component
