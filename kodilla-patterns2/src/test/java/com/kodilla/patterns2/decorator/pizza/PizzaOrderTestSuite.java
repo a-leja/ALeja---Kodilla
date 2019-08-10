@@ -54,10 +54,4 @@ public class PizzaOrderTestSuite {
             assertEquals(new BigDecimal(90.50), price);
             assertEquals("Ingredients: thin dough, tomato sauce, cheese, avocado, roasted peppers, mushrooms, red onion, topped olives, salami, onion, oregano, mushrooms, pineapple, ham, onion, 1x orange juice, 1x orange juice, 1x orange juice", description);
     }
-//    @Test
-//    //Given
-//
-//    //When
-//
-//    //Then
 }
