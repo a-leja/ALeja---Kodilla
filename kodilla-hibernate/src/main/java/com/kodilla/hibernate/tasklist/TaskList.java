@@ -16,16 +16,17 @@ public class TaskList {
     private List<Task> tasks = new ArrayList<>();
 
 
-    public TaskList() {}
+    public TaskList() {
+    }
 
 
     public TaskList(String listName, String description) {
         this.listName = listName;
-        this.description =description;
+        this.description = description;
     }
 
 
-    @OneToMany (
+    @OneToMany(
             targetEntity = Task.class,
             mappedBy = "taskList",
             cascade = CascadeType.ALL,

@@ -2,6 +2,7 @@ package com.kodilla.patterns2.facade;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -20,7 +21,7 @@ public class ShopService {
 
     public Long openOrder(Long userId) {
         if (authenticator.isAuthenticated(userId)) {
-            Long maxOrder = (long)orders.stream()
+            Long maxOrder = (long) orders.stream()
                     .mapToInt(o -> o.getOrderId().intValue())
                     .max().orElse(0);
             orders.add(new Order(maxOrder + 1, userId, productService));

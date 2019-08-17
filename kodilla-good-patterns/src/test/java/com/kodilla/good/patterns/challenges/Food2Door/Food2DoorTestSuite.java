@@ -19,7 +19,7 @@ public class Food2DoorTestSuite {
     @Test
     public void glutenFreeShopTest() {
         //Given
-        GlutenFreeShop glutenFreeShop= new GlutenFreeShop();
+        GlutenFreeShop glutenFreeShop = new GlutenFreeShop();
         //When
         Order glutenFreeShopOrder = new Order(new Product("Gluten-free Oatmeal"), 1);
         boolean result = glutenFreeShop.process(glutenFreeShopOrder);
@@ -30,7 +30,7 @@ public class Food2DoorTestSuite {
     @Test
     public void extraFoodShopTest() {
         //Given
-        ExtraFoodShop extraFoodShop= new ExtraFoodShop();
+        ExtraFoodShop extraFoodShop = new ExtraFoodShop();
         //When
         Order extraFoodShopOrder = new Order(new Product("BIO Banana"), 1);
         boolean result = extraFoodShop.process(extraFoodShopOrder);

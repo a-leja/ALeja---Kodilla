@@ -3,7 +3,7 @@ package com.kodilla.patterns2.adapter.bookclasifier.libraryb;
 import java.util.Arrays;
 import java.util.Map;
 
-public class Statistics implements BookStatistics{
+public class Statistics implements BookStatistics {
 
     @Override
     public int averagePublicationYear(Map<BookSignature, Book> books) {

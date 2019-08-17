@@ -29,7 +29,7 @@ public class Employee {
 
     public Employee(String firstName, String lastName) {
         this.firstName = firstName;
-        this.lastName= lastName;
+        this.lastName = lastName;
     }
 
     @Id
@@ -64,12 +64,12 @@ public class Employee {
         this.lastName = lastName;
     }
 
-    @ManyToMany (cascade = CascadeType.ALL)
-    @JoinTable (
-        name = "JOIN_COMPANY_NAME",
-        joinColumns = {@JoinColumn(name = "EMPLOYEE_ID", referencedColumnName = "EMPLOYEE_ID")},
-        inverseJoinColumns = {@JoinColumn(name = "COMPANY_ID", referencedColumnName = "COMPANY_ID")}
-        )
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(
+            name = "JOIN_COMPANY_NAME",
+            joinColumns = {@JoinColumn(name = "EMPLOYEE_ID", referencedColumnName = "EMPLOYEE_ID")},
+            inverseJoinColumns = {@JoinColumn(name = "COMPANY_ID", referencedColumnName = "COMPANY_ID")}
+    )
 
 
     public List<Company> getCompanies() {

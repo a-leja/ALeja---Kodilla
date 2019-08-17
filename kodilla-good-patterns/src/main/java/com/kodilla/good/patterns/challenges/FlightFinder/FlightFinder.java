@@ -13,8 +13,8 @@ public class FlightFinder {
 
     public static Set<Flight> searchForAllFlightsFrom(String departureAirport) {
         return availableFlights.getAvailableFlights().stream()
-                    .filter(flight -> flight.getDepartureAirport().equals(departureAirport))
-                    .collect(Collectors.toSet());
+                .filter(flight -> flight.getDepartureAirport().equals(departureAirport))
+                .collect(Collectors.toSet());
     }
 
     public static Set<Flight> searchForAllFlightsTo(String arrivalAirport) {

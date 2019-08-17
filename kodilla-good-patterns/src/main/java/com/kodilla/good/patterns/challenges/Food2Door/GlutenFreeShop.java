@@ -39,7 +39,7 @@ public class GlutenFreeShop implements Supplier {
 
         if (order != null && checkIfAvailable(order)) {
             System.out.println("Thank you for ordering " + order.getProduct().getName() + ". We would appreciate your feedback on it!" + "\n");
-        return true;
+            return true;
         }
         return false;
     }

@@ -5,7 +5,7 @@ import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 @Entity
-@Table (name = "ITEMS")
+@Table(name = "ITEMS")
 public class Item {
     private int id;
     private Product product;
@@ -21,12 +21,13 @@ public class Item {
         this.value = value;
     }
 
-    public Item() {}
+    public Item() {
+    }
 
     @Id
     @GeneratedValue
     @NotNull
-    @Column (name = "ID", unique = true)
+    @Column(name = "ID", unique = true)
     public int getId() {
         return id;
     }
@@ -36,8 +37,8 @@ public class Item {
     }
 
 
-    @ManyToOne (cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JoinColumn (name = "PRODUCT_ID")
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinColumn(name = "PRODUCT_ID")
     public Product getProduct() {
         return product;
     }
@@ -47,7 +48,7 @@ public class Item {
     }
 
 
-    @Column (name = "PRICE")
+    @Column(name = "PRICE")
     public BigDecimal getPrice() {
         return price;
     }
@@ -57,7 +58,7 @@ public class Item {
     }
 
 
-    @Column (name = "QUANTITY")
+    @Column(name = "QUANTITY")
     public int getQuantity() {
         return quantity;
     }
@@ -67,7 +68,7 @@ public class Item {
     }
 
 
-    @Column (name = "VALUE")
+    @Column(name = "VALUE")
     public BigDecimal getValue() {
         return value;
     }
@@ -77,8 +78,8 @@ public class Item {
     }
 
 
-    @ManyToOne (cascade = CascadeType.ALL)
-    @JoinColumn (name = "INVOICE_ID", nullable = false)
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "INVOICE_ID", nullable = false)
     public Invoice getInvoice() {
         return invoice;
     }

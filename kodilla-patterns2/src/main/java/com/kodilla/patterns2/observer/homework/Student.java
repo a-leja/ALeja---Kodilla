@@ -49,9 +49,9 @@ public class Student implements Observable {
 
     @Override
     public void notifyObserver() {
-            for (Observer observer : observers) {
-                observer.notify(this);
-            }
+        for (Observer observer : observers) {
+            observer.notify(this);
+        }
     }
 
     @Override

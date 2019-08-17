@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table (name = "INVOICES")
+@Table(name = "INVOICES")
 public class Invoice {
     private int id;
     private String number;
@@ -17,12 +17,13 @@ public class Invoice {
         this.items = items;
     }
 
-    public Invoice() {}
+    public Invoice() {
+    }
 
     @Id
     @GeneratedValue
     @NotNull
-    @Column (name = "ID", unique = true)
+    @Column(name = "ID", unique = true)
     public int getId() {
         return id;
     }
@@ -31,7 +32,7 @@ public class Invoice {
         this.id = id;
     }
 
-    @Column (name = "NUMBER")
+    @Column(name = "NUMBER")
     public String getNumber() {
         return number;
     }
@@ -40,8 +41,8 @@ public class Invoice {
         this.number = number;
     }
 
-    @OneToMany (targetEntity = Item.class, mappedBy = "invoice", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @Column (name = "ITEM_ID")
+    @OneToMany(targetEntity = Item.class, mappedBy = "invoice", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @Column(name = "ITEM_ID")
     public List<Item> getItems() {
         return items;
     }

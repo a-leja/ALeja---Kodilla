@@ -23,7 +23,7 @@ public class Order {
         BigDecimal sum = BigDecimal.ZERO;
         for (Item item : items) {
             sum = sum.add(productService.getPrice(item.getProductId())
-            .multiply(new BigDecimal(item.getQty())));
+                    .multiply(new BigDecimal(item.getQty())));
         }
         return sum;
     }

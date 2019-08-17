@@ -1,6 +1,7 @@
 package com.kodilla.patterns2.decorator.taxiportal;
 
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 import java.math.BigDecimal;
