@@ -2,59 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d9c90c-095e-482b-9dcd-bb05e1bbc8fe" name="Default Changelist" comment="fix project structure">
-      <change afterPath="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/testLoopAndConditionalBreakpoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/FlightFinder/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/FlightFinder/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/FlightFinder/FlightFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/FlightFinder/FlightFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/GlutenFreeShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/Food2Door/GlutenFreeShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/test/java/com/kodilla/good/patterns/challenges/FlightFinder/FlightFinderTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/test/java/com/kodilla/good/patterns/challenges/FlightFinder/FlightFinderTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/test/java/com/kodilla/good/patterns/challenges/Food2Door/Food2DoorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/test/java/com/kodilla/good/patterns/challenges/Food2Door/Food2DoorTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/ItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/ItemDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchByFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchByFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskFinancialDetailsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskFinancialDetailsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/TaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/dao/TaskListDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/dao/TaskListDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/task/dao/TaskFinancialDetailsDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/task/dao/TaskFinancialDetailsDaoTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/MedianAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/MedianAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/libraryb/BookStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/libraryb/BookStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/libraryb/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/libraryb/Statistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/SalaryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/SalaryAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Watcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Watcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PizzaOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PizzaOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/SaladDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/SaladDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/BasicTaxiOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/BasicTaxiOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/forum/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/forum/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/homework/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/homework/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/homework/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/homework/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/aop/calculator/CalculatorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/aop/calculator/CalculatorTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/pizza/PizzaOrderTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/pizza/PizzaOrderTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrderTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrderTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/observer/forum/ForumUserTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/observer/forum/ForumUserTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/observer/homework/TasksTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/observer/homework/TasksTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -126,6 +75,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/kodilla_course$StoredProcTestSuite_testUpdateBestsellers.ic" NAME="StoredProcTestSuite.testUpdateBestsellers Coverage Results" MODIFIED="1566068065820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kodilla.jdbc.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/kodilla_course$com_kodilla_patterns2_decorator_in_com_kodilla_kodilla_patterns2_test.ic" NAME="com.kodilla.patterns2.decorator in com.kodilla.kodilla-patterns2.test Coverage Results" MODIFIED="1565377082033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kodilla.patterns2.decorator.*</FILTER>
     </SUITE>
@@ -192,8 +144,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="331">
+              <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -292,9 +244,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="798" />
+    <option name="x" value="682" />
     <option name="y" value="23" />
-    <option name="width" value="642" />
+    <option name="width" value="758" />
     <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -302,80 +254,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALeja---Kodilla" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -384,7 +263,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566060754220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566138771285" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -427,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StoredProcTestSuite.testUpdateVipLevels">
+  <component name="RunManager" selected="JUnit.StoredProcTestSuite.testUpdateBestsellers">
     <configuration name="/Users/anna/Desktop/Course/ALeja---Kodilla/kodilla-testing2/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -461,6 +340,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StoredProcTestSuite.testUpdateBestsellers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.kodilla.kodilla-jdbc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.StoredProcTestSuite" />
+      <option name="METHOD_NAME" value="testUpdateBestsellers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StoredProcTestSuite.testUpdateVipLevels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.kodilla.kodilla-jdbc.test" />
       <extension name="coverage">
@@ -473,21 +368,6 @@
       <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.StoredProcTestSuite" />
       <option name="METHOD_NAME" value="testUpdateVipLevels" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testLoopAndConditionalBreakpoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.kodilla.kodilla-testing.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.testing.loop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.testing.loop" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.loop.testLoopAndConditionalBreakpoints" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -606,11 +486,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StoredProcTestSuite.testUpdateBestsellers" />
         <item itemvalue="JUnit.StoredProcTestSuite.testUpdateVipLevels" />
         <item itemvalue="Gradle./Users/anna/Desktop/Course/ALeja---Kodilla/kodilla-testing2/build.gradle" />
         <item itemvalue="JUnit.SimpleInvoiceTestSuite.testGetValueToPay" />
         <item itemvalue="JUnit.testLoopAndConditionalBreakpoints.testLoop" />
-        <item itemvalue="JUnit.testLoopAndConditionalBreakpoints" />
       </list>
     </recent_temporary>
   </component>
@@ -755,7 +635,9 @@
       <workItem from="1565894423251" duration="159000" />
       <workItem from="1565894585653" duration="137000" />
       <workItem from="1565899134420" duration="98000" />
-      <workItem from="1566049613775" duration="6329000" />
+      <workItem from="1566049613775" duration="7926000" />
+      <workItem from="1566064657958" duration="4222000" />
+      <workItem from="1566073349234" duration="2243000" />
     </task>
     <task id="LOCAL-00001" summary="fix project structure">
       <created>1556213632711</created>
@@ -768,39 +650,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleInvoiceTestSuite_testGetValueToPay - 2019.08.14 at 22h 53m 31s.xml">
-      <configuration name="SimpleInvoiceTestSuite.testGetValueToPay" configurationId="JUnit" />
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.17 at 20h 36m 01s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2019.08.17 at 16h 18m 59s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.17 at 20h 38m 43s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2019.08.17 at 16h 27m 32s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.17 at 20h 54m 31s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2019.08.17 at 16h 32m 54s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.17 at 21h 14m 30s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2019.08.17 at 16h 34m 48s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.17 at 21h 15m 09s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2019.08.17 at 16h 34m 55s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.17 at 22h 43m 39s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2019.08.17 at 17h 56m 40s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.18 at 16h 28m 33s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2019.08.17 at 18h 01m 56s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.18 at 16h 30m 17s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2019.08.17 at 18h 21m 40s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.18 at 16h 31m 25s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2019.08.17 at 18h 24m 07s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.18 at 16h 32m 54s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356836000" />
+    <option name="totallyTimeSpent" value="364898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,7 +694,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="798" y="23" width="642" height="828" extended-state="0" />
+    <frame x="682" y="23" width="758" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49798387" weight="0.2911302" />
@@ -826,7 +708,7 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4714674" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29483697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5394022" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -853,7 +735,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32923076" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3287037" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32833335" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49798387" visible="true" weight="0.49352178" />
@@ -1442,8 +1324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="331">
+          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
