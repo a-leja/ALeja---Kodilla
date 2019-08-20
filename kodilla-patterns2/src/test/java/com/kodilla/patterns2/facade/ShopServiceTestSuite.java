@@ -4,16 +4,16 @@ import com.kodilla.patterns2.facade.api.ItemDto;
 import com.kodilla.patterns2.facade.api.OrderDto;
 import com.kodilla.patterns2.facade.api.OrderFacade;
 import com.kodilla.patterns2.facade.api.OrderProcessingException;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
 import java.math.BigDecimal;
 
-import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
 
+@Slf4j
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ShopServiceTestSuite {
@@ -77,7 +77,7 @@ public class ShopServiceTestSuite {
         order.addItem(new ItemDto(11L, 3));
 
         try {
-            LOGGER.info("test");
+            log.info("test");
             orderFacade.processOrder(order, 1L);
         } catch (OrderProcessingException e) {
             //business exception - should be handled in real application
