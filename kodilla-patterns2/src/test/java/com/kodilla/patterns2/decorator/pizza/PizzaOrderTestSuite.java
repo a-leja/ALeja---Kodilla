@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 public class PizzaOrderTestSuite {
 
     @Test
-    public void HawaiianPizzaWithAdditionalCheeseTest() {
+    public void hawaiianPizzaWithAdditionalCheeseTest() {
         //Given
         PizzaOrder pizzaOrder = new BasicPizzaOrder();
         pizzaOrder = new HawaiianPizza(pizzaOrder);
@@ -24,7 +24,7 @@ public class PizzaOrderTestSuite {
     }
 
     @Test
-    public void SalamiPizzaWithTwoSaladsTest() {
+    public void salamiPizzaWithTwoSaladsTest() {
         //Given
         PizzaOrder pizzaOrder = new BasicPizzaOrder();
         pizzaOrder = new SalamiPizza(pizzaOrder);
@@ -39,7 +39,7 @@ public class PizzaOrderTestSuite {
     }
 
     @Test
-    public void VegetarianSalamiHawaiianPizzaTest() {
+    public void vegetarianSalamiHawaiianPizzaTest() {
         //Given
         PizzaOrder pizzaOrder = new BasicPizzaOrder();
         pizzaOrder = new VegetarianPizza(pizzaOrder);
