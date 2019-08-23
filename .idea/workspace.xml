@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2d9c90c-095e-482b-9dcd-bb05e1bbc8fe" name="Default Changelist" comment="fix project structure">
+    <list default="true" id="5ad78510-a73a-47b2-8ea2-8dea8ad3c036" name="Revert &quot;update springframework&quot;" comment="Revert &quot;update springframework&quot;&#10;&#10;This reverts commit 5ea926d4">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-exception/com.kodilla.kodilla-exception.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-exception/com.kodilla.kodilla-exception.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/com.kodilla.kodilla-good-patterns.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/com.kodilla.kodilla-good-patterns.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-rps/com.kodilla.kodilla-rps.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-rps/com.kodilla.kodilla-rps.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/com.kodilla.kodilla-spring-intro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/com.kodilla.kodilla-spring-intro.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/com.kodilla.kodilla-spring-intro.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring/com.kodilla.kodilla-spring.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring/com.kodilla.kodilla-spring.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-stream/com.kodilla.kodilla-stream.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-stream/com.kodilla.kodilla-stream.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-testing/com.kodilla.kodilla-testing.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kodilla-testing/com.kodilla.kodilla-testing.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-exception/com.kodilla.kodilla-exception.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-exception/com.kodilla.kodilla-exception.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/com.kodilla.kodilla-good-patterns.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/com.kodilla.kodilla-good-patterns.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-rps/com.kodilla.kodilla-rps.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-rps/com.kodilla.kodilla-rps.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/com.kodilla.kodilla-spring-intro.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/com.kodilla.kodilla-spring-intro.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/com.kodilla.kodilla-spring-intro.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-spring/com.kodilla.kodilla-spring.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-spring/com.kodilla.kodilla-spring.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-stream/com.kodilla.kodilla-stream.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-stream/com.kodilla.kodilla-stream.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-testing/com.kodilla.kodilla-testing.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-testing/com.kodilla.kodilla-testing.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" afterDir="false" />
@@ -25,11 +26,15 @@
       <change beforePath="$PROJECT_DIR$/kodilla-patterns2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java" afterDir="false" />
     </list>
+    <list id="a2d9c90c-095e-482b-9dcd-bb05e1bbc8fe" name="Default Changelist" comment="fix project structure" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/kodilla_course$StoredProcTestSuite_testUpdateBestsellers.ic" NAME="StoredProcTestSuite.testUpdateBestsellers Coverage Results" MODIFIED="1566068065820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -75,17 +80,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <task path="$PROJECT_DIR$/kodilla-patterns2">
-          <activation />
-        </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="kodilla-patterns2" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -103,14 +100,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>seed</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/ProductOrderService</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -141,7 +130,7 @@
     <property name="project.structure.proportion" value="0.14450866" />
     <property name="project.structure.side.proportion" value="0.3073436" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -518,7 +507,6 @@
       <workItem from="1566140044920" duration="231000" />
       <workItem from="1566140294624" duration="152000" />
       <workItem from="1566251082655" duration="36000" />
-      <workItem from="1566337530102" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="fix project structure">
       <created>1556213632711</created>
@@ -529,6 +517,38 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.17 at 20h 36m 01s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.17 at 20h 38m 43s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.17 at 20h 54m 31s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.17 at 21h 14m 30s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.17 at 21h 15m 09s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.17 at 22h 43m 39s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.18 at 16h 28m 33s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.18 at 16h 30m 17s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.18 at 16h 31m 25s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.08.18 at 16h 32m 54s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -541,16 +561,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -581,7 +591,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix project structure" />
+    <MESSAGE value="Revert &quot;update springframework&quot;&#10;&#10;This reverts commit 5ea926d4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;update springframework&quot;&#10;&#10;This reverts commit 5ea926d4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
