@@ -22,6 +22,9 @@ repositories {
     mavenCentral()
 }
 
+springBoot {
+    mainClass = "com.kodilla.KodillaCourseApplication"
+}
 
 dependencies {
     //External dependencies
