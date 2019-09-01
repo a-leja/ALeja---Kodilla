@@ -2,6 +2,7 @@
 
 This repository contains main excercises completed during the Java Developr Bootcamp.
 
+
 **Topics covered:**
 - Core Java:
 	* Lambda expression
