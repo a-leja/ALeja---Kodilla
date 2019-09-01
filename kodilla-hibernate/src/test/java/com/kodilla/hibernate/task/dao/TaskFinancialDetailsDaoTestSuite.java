@@ -32,6 +32,6 @@ public class TaskFinancialDetailsDaoTestSuite {
         Assert.assertEquals(0, resultList.size());
 
         //CleanUp
-        taskFinancialDetailsDao.deleteById(id);
+        taskFinancialDetailsDao.delete(id);
     }
 }

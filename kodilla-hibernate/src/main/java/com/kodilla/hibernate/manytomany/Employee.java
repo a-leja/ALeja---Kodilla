@@ -7,7 +7,7 @@ import java.util.List;
 
 @NamedQuery(
         name = "Employee.findByLastName",
-        query = "SELECT * FROM Employee WHERE lastName :LastName"
+        query = "FROM Employee WHERE lastName = :lastName"
 )
 
 @NamedNativeQuery(

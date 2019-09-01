@@ -27,7 +27,6 @@ public class Company {
 
     @Id
     @GeneratedValue
-    @NotNull
     @Column(name = "COMPANY_ID", unique = true)
     public int getId() {
         return id;
