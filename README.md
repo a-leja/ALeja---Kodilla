@@ -1,8 +1,8 @@
 ### Bootcamp Kodilla Java Developer
 
-This repository contains main excercises completed during the Java Developr Bootcamp.
-
-
+This repository contains main exercises completed during the Java Developer Bootcamp.
+\
+\
 **Topics covered:**
 - Core Java:
 	* Lambda expression
