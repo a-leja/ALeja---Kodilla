@@ -31,7 +31,7 @@ public class SearchByFragmentTestSuite {
     private EmployeeDao employeeDao;
 
     @Test
-    public void RetrieveCompanyLikeTest() {
+    public void RetrieveCompanyAndEmployeeLikeTest() {
         //Given
         Company samsung = new Company("Samsung");
         Company apple = new Company("Apple");
@@ -41,6 +41,14 @@ public class SearchByFragmentTestSuite {
         Employee michelle = new Employee("Michelle", "Brown");
         Employee alex = new Employee("Alex", "Lee");
 
+//        samsung.getEmployees().add(michael);
+//        apple.getEmployees().add(michelle);
+//        xiaomi.getEmployees().add(alex);
+//
+//        michael.getCompanies().add(samsung);
+//        michelle.getCompanies().add(apple);
+//        alex.getCompanies().add(xiaomi);
+
         companyDao.save(samsung);
         companyDao.save(apple);
         companyDao.save(xiaomi);
@@ -49,11 +57,9 @@ public class SearchByFragmentTestSuite {
         employeeDao.save(alex);
 
         //When
-        List<Company> companiesResult = new ArrayList<>();
-        searchByFragment.retrieveCompanyLike("aom");
+        List<Company> companiesResult = searchByFragment.retrieveCompanyLike("aom");
 
-        List<Company> employeesResult = new ArrayList<>();
-        searchByFragment.retrieveCompanyLike("mic");
+        List<Company> employeesResult = searchByFragment.retrieveCompanyLike("mic");
 
         //Then
         Assert.assertEquals(1, companiesResult.size());
