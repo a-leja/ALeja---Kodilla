@@ -4,26 +4,25 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class FlightFinder {
-    private static AvailableFlights availableFlights;
-
+    private AvailableFlights availableFlights;
 
     public FlightFinder(AvailableFlights availableFlights) {
         this.availableFlights = availableFlights;
     }
 
-    public static Set<Flight> searchForAllFlightsFrom(String departureAirport) {
+    public Set<Flight> searchForAllFlightsFrom(String departureAirport) {
         return availableFlights.getAvailableFlights().stream()
                 .filter(flight -> flight.getDepartureAirport().equals(departureAirport))
                 .collect(Collectors.toSet());
     }
 
-    public static Set<Flight> searchForAllFlightsTo(String arrivalAirport) {
+    public Set<Flight> searchForAllFlightsTo(String arrivalAirport) {
         return availableFlights.getAvailableFlights().stream()
                 .filter(flight -> flight.getArrivalAirport().equals(arrivalAirport))
                 .collect(Collectors.toSet());
     }
 
-    public static Set<Flight> searchForAllFlightsVia(String departureAirport, String via, String arrivalAirport) {
+    public Set<Flight> searchForAllFlightsVia(String departureAirport, String via, String arrivalAirport) {
         Set<Flight> flightsVia = new HashSet<>();
         availableFlights.getAvailableFlights().stream()
                 .filter(flight -> flight.getDepartureAirport().equals(departureAirport))
