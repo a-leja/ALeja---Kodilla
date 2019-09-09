@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
 import java.util.List;
 
 @RunWith(SpringRunner.class)
@@ -57,13 +56,13 @@ public class CompanyDaoTestSuite {
         Assert.assertNotEquals(0, greyMatterId);
 
         //CleanUp
-        //try {
-        //    companyDao.deleteById(softwareMachineId);
-        //    companyDao.deleteById(dataMaestersId);
-        //    companyDao.deleteById(greyMatterId);
-        //} catch (Exception e) {
-        //    //do nothing
-        //}
+        try {
+            companyDao.delete(softwareMachineId);
+            companyDao.delete(dataMaestersId);
+            companyDao.delete(greyMatterId);
+        } catch (Exception e) {
+            //do nothing
+        }
     }
 
 
@@ -92,8 +91,11 @@ public class CompanyDaoTestSuite {
 
         //When
         companyDao.save(softwareMachine);
+        int softwareMachineId = softwareMachine.getId();
         companyDao.save(greyMatter);
+        int dataMaestersId = dataMaesters.getId();
         companyDao.save(dataMaesters);
+        int greyMatterId = greyMatter.getId();
         List<Employee> employeesWithLastName = employeeDao.findByLastName("Smith");
 
         //Then
@@ -101,9 +103,9 @@ public class CompanyDaoTestSuite {
 
 //        //CleanUp
         try {
-            companyDao.delete(softwareMachine);
-            companyDao.delete(greyMatter);
-            companyDao.delete(dataMaesters);
+            companyDao.delete(softwareMachineId);
+            companyDao.delete(greyMatterId);
+            companyDao.delete(dataMaestersId);
         } catch (Exception e) {
             //do nothing
         }
@@ -134,20 +136,23 @@ public class CompanyDaoTestSuite {
 
         //When
         companyDao.save(softwareMachine);
+        int softwareMachineId = softwareMachine.getId();
         companyDao.save(greyMatter);
+        int dataMaestersId = dataMaesters.getId();
         companyDao.save(dataMaesters);
+        int greyMatterId = greyMatter.getId();
         List<Company> companiesSearchedByFragment = companyDao.findByFragment("Smi");
 
         //Then
         Assert.assertEquals(1, companiesSearchedByFragment.size());
 
         //CleanUp
-//        try {
-//            companyDao.delete(softwareMachine);
-//            companyDao.delete(greyMatter);
-//            companyDao.delete(dataMaesters);
-//        } catch (Exception e) {
-//            //do nothing
-//        }
+        try {
+            companyDao.delete(softwareMachineId);
+            companyDao.delete(greyMatterId);
+            companyDao.delete(dataMaestersId);
+        } catch (Exception e) {
+            //do nothing
+        }
     }
 }
