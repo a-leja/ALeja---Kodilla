@@ -29,6 +29,8 @@
       <module name="ALeja---Kodilla.kodilla-stream.test" target="1.8" />
       <module name="ALeja---Kodilla.kodilla-testing.main" target="1.8" />
       <module name="ALeja---Kodilla.kodilla-testing.test" target="1.8" />
+      <module name="ALeja---Kodilla.kodilla-testing2.main" target="1.8" />
+      <module name="ALeja---Kodilla.kodilla-testing2.test" target="1.8" />
       <module name="ALeja---Kodilla.main" target="1.8" />
       <module name="ALeja---Kodilla.test" target="1.8" />
       <module name="com.kodilla.ALeja---Kodilla.main" target="1.8" />
