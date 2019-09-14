@@ -7,8 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 public class CrudAppTestingApp {
-    public static final String XPATH_INPUT = "//html/body/main/section/form/fieldset/input";
-    public static final String XPATH_TEXTAREA = "//html/body/main/section/form/fieldset/textarea";
+    public static final String XPATH_INPUT = "/html/body/main/section/form/fieldset/input";
+    public static final String XPATH_TEXTAREA = "/html/body/main/section/form/fieldset/textarea";
     public static final String XPATH_WAIT_FOR = "//select[1]";
     public static final String XPATH_SELECT = "//div[contains(@class, \"tasks-container\")]/form/div/fieldset/select[1]";
 
