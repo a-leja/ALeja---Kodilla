@@ -11,9 +11,6 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import javax.transaction.Transactional;
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -41,13 +38,13 @@ public class SearchByFragmentTestSuite {
         Employee michelle = new Employee("Michelle", "Brown");
         Employee alex = new Employee("Alex", "Lee");
 
-//        samsung.getEmployees().add(michael);
-//        apple.getEmployees().add(michelle);
-//        xiaomi.getEmployees().add(alex);
-//
-//        michael.getCompanies().add(samsung);
-//        michelle.getCompanies().add(apple);
-//        alex.getCompanies().add(xiaomi);
+        samsung.getEmployees().add(michael);
+        apple.getEmployees().add(michelle);
+        xiaomi.getEmployees().add(alex);
+
+        michael.getCompanies().add(samsung);
+        michelle.getCompanies().add(apple);
+        alex.getCompanies().add(xiaomi);
 
         companyDao.save(samsung);
         companyDao.save(apple);
@@ -59,7 +56,7 @@ public class SearchByFragmentTestSuite {
         //When
         List<Company> companiesResult = searchByFragment.retrieveCompanyLike("aom");
 
-        List<Company> employeesResult = searchByFragment.retrieveCompanyLike("mic");
+        List<Employee> employeesResult = searchByFragment.retrieveEmployeeLike("mic");
 
         //Then
         Assert.assertEquals(1, companiesResult.size());
