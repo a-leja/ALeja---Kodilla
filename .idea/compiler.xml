@@ -33,6 +33,30 @@
       <module name="ALeja---Kodilla.kodilla-testing2.test" target="1.8" />
       <module name="ALeja---Kodilla.main" target="1.8" />
       <module name="ALeja---Kodilla.test" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-exception.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-exception.test" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-good-patterns.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-good-patterns.test" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-hibernate.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-hibernate.test" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-jdbc.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-jdbc.test" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-patterns.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-patterns.test" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-patterns2.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-patterns2.test" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-spring-intro.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-spring-intro.test" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-spring-web.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-spring-web.test" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-spring.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-spring.test" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-stream.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-stream.test" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-testing.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-testing.test" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-testing2.main" target="1.8" />
+      <module name="com.kodilla.ALeja---Kodilla.kodilla-testing2.test" target="1.8" />
       <module name="com.kodilla.ALeja---Kodilla.main" target="1.8" />
       <module name="com.kodilla.ALeja---Kodilla.test" target="1.8" />
       <module name="com.kodilla.com.kodilla.good.patterns.main" target="1.8" />

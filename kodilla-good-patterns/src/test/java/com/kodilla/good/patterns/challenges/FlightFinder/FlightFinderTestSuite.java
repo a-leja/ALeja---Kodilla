@@ -8,7 +8,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class FlightFinderTestSuite {
-    private static FlightFinder flightFinder;
     private static Set<Flight> allAvailableFlights;
 
     @BeforeClass
@@ -23,10 +22,10 @@ public class FlightFinderTestSuite {
     @Test
     public void flightsFromTest() {
         //Given
+        FlightFinder flightFinder = new FlightFinder(new AvailableFlights(allAvailableFlights));
         //When
         Set<Flight> airport = flightFinder.searchForAllFlightsFrom("BCN");
-
         //Then
-        Assert.assertEquals("KRK",airport);
+        Assert.assertEquals(1, airport.size());
     }
 }
